@@ -1,69 +1,108 @@
-<h1 align="center">Hi 👋, I'm Herit</h1>
-<h3 align="center">🚀 Data Science Enthusiast | Python Learner | AI Explorer</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub!;Machine+Learning+Learner;Building+Cool+Projects;Always+Learning+Something+New" />
-</p>
+# Hi 👋 I'm Herit
+
+### Data Science Enthusiast • ML Learner • Python Developer
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=Welcome+to+my+GitHub+Profile;Machine+Learning+Explorer;Building+Projects+with+Python;Always+Learning+New+Things" />
+
+</div>
 
 ---
+
+<table>
+<tr>
+<td width="50%">
 
 ## 👨‍💻 About Me
 
 ```python
-class Herit:
-    def __init__(self):
-        self.username = "herit007"
-        self.role = "Data Science Student"
-        self.learning = ["Machine Learning", "Deep Learning", "Python", "SQL"]
-        self.goal = "Build impactful projects through code"
+name = "Herit"
+username = "herit007"
+role = "Data Science Student"
 
-me = Herit()
+learning = [
+    "Machine Learning",
+    "Deep Learning",
+    "SQL",
+    "Python"
+]
+
+goal = "Build cool projects that matter"
 ```
 
-- 🌱 Currently learning **Machine Learning & Data Science**
-- 🤖 Interested in **AI, ML, Deep Learning**
-- 📚 Exploring real-world datasets & projects
-- ⚡ Fun fact: **I like turning ideas into projects**
+- 🌱 Learning AI & ML  
+- 📊 Love working with datasets  
+- 🤖 Exploring Deep Learning  
+- 🚀 Building projects continuously  
+
+</td>
+
+<td width="50%">
+
+## ⚡ Current Mission
+
+```bash
+> learn ML
+> build projects
+> contribute more
+> grow daily
+```
+
+## 🏆 Achievements
+
+🥇 Pull Shark  
+⚡ Quickdraw  
+🚀 Open Source Journey  
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tech Arsenal
 
 <p align="center">
-  <marquee behavior="scroll" direction="left" scrollamount="8">
-    <img src="https://skillicons.dev/icons?i=python,mysql,git,github,vscode,tensorflow" />
-  </marquee>
+<img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/SQL-111111?style=for-the-badge&logo=mysql"/>
+<img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git"/>
+<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/TensorFlow-111111?style=for-the-badge&logo=tensorflow"/>
+<img src="https://img.shields.io/badge/Jupyter-111111?style=for-the-badge&logo=jupyter"/>
+</p>
+
+<p align="center">
+<img src="https://readme-marquee.vercel.app/api?text=Python%20•%20Machine%20Learning%20•%20Deep%20Learning%20•%20SQL%20•%20GitHub%20•%20Data%20Science&theme=dark" />
 </p>
 
 ---
 
-## 📌 Current Focus
+## 📌 Featured Projects
 
-- 📊 Exploratory Data Analysis  
-- 🤖 Machine Learning Models  
-- 🧠 Deep Learning Basics  
-- 📂 Real-world Data Projects  
-
----
-
-## 🏆 GitHub Achievements
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=herit007&theme=algolia&row=1&column=4" />
-</p>
+| Project | Description |
+|---|---|
+| 🤖 Loan Prediction | ML model for loan approval |
+| 🛡 Spam Detection | Fake/spam account detection |
+| 🖼 Image Classification | CNN-based image prediction |
+| 📊 EDA Projects | Real-world dataset analysis |
 
 ---
+
+<div align="center">
 
 ## 📫 Connect
 
-<p align="center">
-  <a href="https://github.com/herit007">
-    <img src="https://img.shields.io/badge/GitHub-herit007-181717?style=for-the-badge&logo=github" />
-  </a>
-</p>
+<a href="https://github.com/herit007">
+<img src="https://img.shields.io/badge/GitHub-herit007-blue?style=for-the-badge&logo=github"/>
+</a>
+
+</div>
 
 ---
 
-<p align="center">
-✨ <i>"Code. Learn. Build. Repeat."</i> ✨
-</p>
+<div align="center">
+
+### ✨ Code • Learn • Build • Repeat ✨
+
+</div>
