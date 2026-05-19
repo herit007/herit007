@@ -1,162 +1,127 @@
 <div align="center">
 
-# Hi 👋 I'm Herit
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Herit%20GitHub%20Profile&fontSize=40&fontColor=ffffff"/>
 
-### 🚀 Data Science Enthusiast | Machine Learning Learner | Python Developer
+# Hi 👋, I'm Herit
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Welcome+to+my+GitHub+Profile;Machine+Learning+Explorer;Building+Cool+Projects;Always+Learning+New+Things" />
+### Data Science Enthusiast | Machine Learning Learner | Python Developer
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Welcome+to+my+GitHub+Profile;Machine+Learning+Explorer;Data+Science+Projects;Always+Learning+Something+New" />
 
 </div>
 
 ---
 
-<table>
-<tr>
-<td width="50%">
-
 ## 👨‍💻 About Me
 
 ```python
-class Herit():
-    def __init__(self):
-        self.username = "herit007"
-        self.role = "Data Science Student"
-        self.language = ["Python", "SQL"]
-        self.learning = [
-            "Machine Learning",
-            "Deep Learning",
-            "Data Analysis"
-        ]
-        self.goal = "Build cool and impactful projects"
+class Herit:
+    username = "herit007"
+    role = "Data Science Student"
+
+    skills = [
+        "Python",
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Scikit-Learn",
+        "Seaborn"
+    ]
+
+    current_focus = "Machine Learning & Data Science"
 ```
 
-- 🌱 Learning Machine Learning & AI  
-- 📊 Exploring Real World Datasets  
-- 🤖 Interested in Deep Learning  
-- 🚀 Building Projects Daily  
-
-</td>
-
-<td width="50%">
-
-## ⚡ Quick Info
-
-- 🔭 Working on ML Projects  
-- 🌍 Based in India  
-- 💡 Love solving problems with code  
-- 📚 Currently learning Python ecosystem  
-
-</td>
-</tr>
-</table>
+- 🌱 Currently learning Machine Learning & AI  
+- 📊 Working on real-world datasets  
+- 🤖 Exploring Deep Learning  
+- 🚀 Building practical projects  
 
 ---
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 <p align="center">
-<marquee behavior="scroll" direction="left" scrollamount="8">
+<marquee behavior="scroll" direction="left" scrollamount="5">
 
-<img src="https://skillicons.dev/icons?i=python" height="60"/>
-<img src="https://skillicons.dev/icons?i=mysql" height="60"/>
-<img src="https://skillicons.dev/icons?i=tensorflow" height="60"/>
-<img src="https://skillicons.dev/icons?i=pytorch" height="60"/>
-<img src="https://skillicons.dev/icons?i=git" height="60"/>
-<img src="https://skillicons.dev/icons?i=github" height="60"/>
-<img src="https://skillicons.dev/icons?i=vscode" height="60"/>
-<img src="https://skillicons.dev/icons?i=anaconda" height="60"/>
-<img src="https://skillicons.dev/icons?i=jupyter" height="60"/>
-<img src="https://skillicons.dev/icons?i=linux" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="55"/>&nbsp;&nbsp;&nbsp;
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="55"/>&nbsp;&nbsp;&nbsp;
+
+<img src="https://img.icons8.com/color/96/microsoft-excel-2019.png" width="55"/>&nbsp;&nbsp;&nbsp;
+
+<img src="https://img.icons8.com/color/96/power-bi.png" width="55"/>&nbsp;&nbsp;&nbsp;
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="55"/>&nbsp;&nbsp;&nbsp;
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="55"/>&nbsp;&nbsp;&nbsp;
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="55"/>&nbsp;&nbsp;&nbsp;
+
+<img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="55"/>&nbsp;&nbsp;&nbsp;
+
+<img src="https://matplotlib.org/_static/images/logo2.svg" width="55"/>&nbsp;&nbsp;&nbsp;
 
 </marquee>
 </p>
 
 ---
 
-# 📊 GitHub Analytics
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&theme=tokyonight&hide_border=true"/>
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight"/>
 
 </div>
 
 ---
 
-# 🔥 Contribution Streak
+## 🏆 Achievements
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=herit007&theme=tokyonight&hide_border=true"/>
+<img src="https://github-profile-trophy.vercel.app/?username=herit007&theme=algolia&row=1&column=4&no-frame=true"/>
 
 </div>
 
 ---
 
-# 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=herit007&theme=algolia&no-frame=true&row=1&column=6"/>
-
-</div>
-
----
-
-# 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=herit007&theme=tokyo-night"/>
-
-</div>
-
----
-
-# 📌 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
+## 📌 Featured Projects
 
 ### 🤖 Machine Learning
 - Loan Prediction Model  
 - Spam/Fake Account Detection  
 - Image Classification  
 
-</td>
-
-<td width="50%">
-
 ### 📊 Data Science
-- EDA Projects  
-- Data Cleaning Projects  
+- Exploratory Data Analysis  
 - SQL Analysis Projects  
-
-</td>
-</tr>
-</table>
+- Data Cleaning Pipelines  
 
 ---
 
-# 📫 Connect With Me
+## 📫 Connect With Me
 
-<div align="center">
-
+<p align="center">
 <a href="https://github.com/herit007">
 <img src="https://img.shields.io/badge/GitHub-herit007-181717?style=for-the-badge&logo=github"/>
 </a>
-
-</div>
+</p>
 
 ---
 
 <div align="center">
 
-## ✨ Quote
-
-### *Code • Learn • Build • Repeat*
+### ✨ Code • Learn • Build • Repeat ✨
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
+
