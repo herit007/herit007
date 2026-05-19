@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎯 HERIT KUMAR
+# 🎯 HERIT TANNA
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=false&width=900&height=100&lines=AI+%26+Data+Analytics+Enthusiast;Building+Modern+Data+Driven+Experiences" alt="Typing SVG" />
 
