@@ -14,22 +14,22 @@
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="https://img.icons8.com/neon-gradient/100/brain-main.png" width="50"/><br>
+      <img src="https://skillicons.dev/icons?i=py" width="40"/><br>
       <b>Machine Learning</b><br>
       Predictive Modeling & Deep Learning
     </td>
     <td align="center" width="25%">
-      <img src="https://img.icons8.com/neon-gradient/100/area-chart.png" width="50"/><br>
+      <img src="https://skillicons.dev/icons?i=postgres" width="40"/><br>
       <b>Data Analytics</b><br>
       Interactive Dashboards & Visual Storytelling
     </td>
     <td align="center" width="25%">
-      <img src="https://img.icons8.com/neon-gradient/100/cloud-lighting.png" width="50"/><br>
+      <img src="https://skillicons.dev/icons?i=githubactions" width="40"/><br>
       <b>MLOps</b><br>
       Deployment & Scalable Architectures
     </td>
     <td align="center" width="25%">
-      <img src="https://img.icons8.com/neon-gradient/100/target.png" width="50"/><br>
+      <img src="https://skillicons.dev/icons?i=linux" width="40"/><br>
       <b>Strategic Growth</b><br>
       Turning Data into Business Impact
     </td>
@@ -111,15 +111,15 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=0D1117"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=00D9FF&text_color=FFFFFF&bg_color=0D1117"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&stroke=00D9FF&currStreakLabel=00D9FF" />
 
 </div>
 
@@ -129,10 +129,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight" width="100%"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=herit007&theme=tokyonight" width="49%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=herit007&theme=tokyonight" width="49%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=herit007&theme=tokyo-night&bg_color=0d1117&hide_border=true&color=00d9ff" width="100%" />
 
 </div>
 
@@ -148,11 +145,11 @@
 
 ---
 
-# 🐍 CONTRIBUTION SNAKE
+# 🧊 3D CONTRIBUTION VOID
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/github-contribution-grid-snake-dark.svg" width="100%">
+<img src="https://raw.githubusercontent.com/herit007/herit007/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%">
 
 </div>
 
