@@ -18,10 +18,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      - name: Commit & Push
+      - name: Commit & Push to Output Branch
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A .
+          mkdir -p dist
+          cp -r profile-3d-contrib/* dist/
+          cd dist
+          git init
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git checkout -b output
+          git add .
           git commit -m "generated 3d contribution graph" || exit 0
-          git push
+          git push -f origin output
