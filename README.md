@@ -1,174 +1,120 @@
 <div align="center">
 
-# 🌌 HERIT TANNA
-### 🚀 Data Architect | AI & Analytics Visionary
+# ⚡ [ SYSTEM OVERRIDE DETECTED ] ⚡
+## IDENTITY: HERIT TANNA // DATA_ARCHITECT
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=150&lines=Decoding+Data+to+Drive+Innovation;Building+Intelligent+Data+Experiences;Transforming+Raw+Information+into+Strategic+Insights" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&duration=2000&pause=500&color=ADFF2F&center=true&vCenter=true&multiline=true&width=900&height=180&lines=%3E+INITIALIZING+NEURAL+LINK...;%3E+ACCESSING+QUANTUM+DATASETS...;%3E+ARCHITECTING+FUTURE+INTELLIGENCE...;%3E+STATUS%3A+ELITE_ANALYST" alt="Typing SVG" />
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="800">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ---
 
-# 🛸 MISSION CONTROL
+# 🛡️ CORE NEURAL MODULES
 
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="https://skillicons.dev/icons?i=py" width="40"/><br>
-      <b>Machine Learning</b><br>
-      Predictive Modeling & Deep Learning
+      <img src="https://img.icons8.com/wired/100/ADFF2F/brain.png" width="60"/><br>
+      <code><b>[ ML_PRECISION ]</b></code><br>
+      Neural Net Architectures
     </td>
     <td align="center" width="25%">
-      <img src="https://skillicons.dev/icons?i=postgres" width="40"/><br>
-      <b>Data Analytics</b><br>
-      Interactive Dashboards & Visual Storytelling
+      <img src="https://img.icons8.com/wired/100/ADFF2F/data-configuration.png" width="60"/><br>
+      <code><b>[ DATA_EXTRACTION ]</b></code><br>
+      Deep Insight Harvesting
     </td>
     <td align="center" width="25%">
-      <img src="https://skillicons.dev/icons?i=githubactions" width="40"/><br>
-      <b>MLOps</b><br>
-      Deployment & Scalable Architectures
+      <img src="https://img.icons8.com/wired/100/ADFF2F/cloud-backup.png" width="60"/><br>
+      <code><b>[ CLOUD_SYNC ]</b></code><br>
+      Scalable MLOps Flow
     </td>
     <td align="center" width="25%">
-      <img src="https://skillicons.dev/icons?i=linux" width="40"/><br>
-      <b>Strategic Growth</b><br>
-      Turning Data into Business Impact
+      <img src="https://img.icons8.com/wired/100/ADFF2F/mission-of-a-company.png" width="60"/><br>
+      <code><b>[ TARGET_LOCKED ]</b></code><br>
+      Strategic Optimization
     </td>
   </tr>
 </table>
 
 ---
 
-# 🛠️ CYBER TECH STACK
+# 🛠️ SYNAPTIC CAPABILITIES
 
-### 🧬 Data Engineering & Intelligence
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+### ⚡ INFRASTRUCTURE
+![Python](https://img.shields.io/badge/CORE-PYTHON-green?style=for-the-badge&logo=python&logoColor=ADFF2F)
+![SQL](https://img.shields.io/badge/DATA-SQL-green?style=for-the-badge&logo=postgresql&logoColor=ADFF2F)
+![Pandas](https://img.shields.io/badge/PROCESS-PANDAS-green?style=for-the-badge&logo=pandas&logoColor=ADFF2F)
 
-### 🔮 Visualization & Analytics
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+### 🔮 VISUALIZATION
+![Power BI](https://img.shields.io/badge/DASHBOARD-POWER_BI-yellow?style=for-the-badge&logo=powerbi&logoColor=black)
+![Plotly](https://img.shields.io/badge/NEURON-PLOTLY-yellow?style=for-the-badge&logo=plotly&logoColor=black)
+![Streamlit](https://img.shields.io/badge/UI-STREAMLIT-yellow?style=for-the-badge&logo=streamlit&logoColor=black)
 
 </div>
 
 ---
 
-# 🚀 FEATURED UNIVERSE
+# 📂 ENCRYPTED PROTOCOLS (PROJECTS)
 
 <div align="center">
 
-<table width="100%">
-  <tr>
-    <td width="50%">
-      <h3 align="center">💳 UPI Payment Analysis</h3>
-      <img src="https://raw.githubusercontent.com/herit007/Data-Analytics-Portfolio/main/UPI%20Analysis/dashboard.png" width="100%">
-      <p align="left">Interactive dashboard analyzing transaction trends and market share of major UPI apps in India. Built with Power BI & DAX.</p>
-      <div align="center">
-        <a href="https://github.com/herit007/Data-Analytics-Portfolio/tree/main/UPI%20Analysis">
-          <img src="https://img.shields.io/badge/View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=black"/>
-        </a>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">🛒 Retail Sales Insight</h3>
-      <img src="https://raw.githubusercontent.com/herit007/Data-Analytics-Portfolio/main/Retail%20Store%20Sales%20Analysis/Dashboard.png" width="100%">
-      <p align="left">End-to-end analysis of retail performance, customer churn, and product category contribution using SQL and Power BI.</p>
-      <div align="center">
-        <a href="https://github.com/herit007/Data-Analytics-Portfolio/tree/main/Retail%20Store%20Sales%20Analysis">
-          <img src="https://img.shields.io/badge/View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=black"/>
-        </a>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">💱 INR Currency Pulse</h3>
-      <img src="https://raw.githubusercontent.com/herit007/Data-Analytics-Portfolio/main/INR-Currency-Dashboard/currency_dashboard.png" width="100%">
-      <p align="left">Real-time tracking and YoY growth analysis of INR against major global currencies like USD, EUR, and GBP.</p>
-      <div align="center">
-        <a href="https://github.com/herit007/Data-Analytics-Portfolio/tree/main/INR-Currency-Dashboard">
-          <img src="https://img.shields.io/badge/View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=black"/>
-        </a>
-      </div>
-    </td>
-    <td width="50%" align="center">
-      <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50%">
-      <p>More projects arriving in deep space soon...</p>
-    </td>
-  </tr>
-</table>
+| PROTOCOL | CLASSIFICATION | ACCESS |
+| :--- | :--- | :--- |
+| **[ 💳 UPI_ANALYSIS ]** | Indian Payment Ecosystem // Transactional Trends | [**DECRYPT**](https://github.com/herit007/Data-Analytics-Portfolio/tree/main/UPI%20Analysis) |
+| **[ 🛒 RETAIL_PERFORMANCE ]** | Global Sales Insight // Churn Dynamics | [**DECRYPT**](https://github.com/herit007/Data-Analytics-Portfolio/tree/main/Retail%20Store%20Sales%20Analysis) |
+| **[ 💱 CURRENCY_PULSE ]** | Global Exchange Matrix // INR Forecasting | [**DECRYPT**](https://github.com/herit007/Data-Analytics-Portfolio/tree/main/INR-Currency-Dashboard) |
 
 </div>
 
 ---
 
-# 📊 NEON ANALYTICS
+# 📡 LIVE TELEMETRY
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=0D1117"/>
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=herit007&theme=highcontrast&show_icons=true&include_all_commits=true&count_private=true&custom_title=SYSTEM_METRICS&border_color=ADFF2F&title_color=ADFF2F&icon_color=ADFF2F&text_color=FFFFFF&bg_color=000000"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=00D9FF&text_color=FFFFFF&bg_color=0D1117"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&stroke=00D9FF&currStreakLabel=00D9FF" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&theme=highcontrast&layout=compact&langs_count=8&border_color=ADFF2F&title_color=ADFF2F&text_color=FFFFFF&bg_color=000000"/>
+<img width="49%" src="https://streak-stats.demolab.com?user=herit007&theme=high-contrast&border=ADFF2F&background=000000&ring=ADFF2F&fire=ADFF2F&currStreakLabel=ADFF2F" />
 
 </div>
 
 ---
 
-# 📈 VIRTUAL ACTIVITY
+# 🧠 COGNITIVE FOOTPRINT
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=herit007&theme=tokyo-night&bg_color=0d1117&hide_border=true&color=00d9ff" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=herit007&bg_color=000000&color=ADFF2F&line=ADFF2F&point=FFFFFF&area=true&hide_border=true" width="100%" />
 
 </div>
 
 ---
 
-# 🏆 LEGENDARY TROPHIES
+# 🌌 UNIVERSAL METRICS
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=herit007&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
+<img src="https://raw.githubusercontent.com/herit007/herit007/main/metrics.classic.svg" width="100%" onerror="this.src='https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=dark'" />
 
 </div>
 
 ---
 
-# 🧊 3D CONTRIBUTION VOID
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-rainbow.svg" width="100%">
-
-</div>
-
----
-
-# 🛰️ CONNECT WITH ME
+# 🔗 SECURE UPLINK
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/tanna-herit-38b679387/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="mailto:gwability@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <a href="https://herit007.github.io">
-<img src="https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+<img src="https://img.shields.io/badge/OS_PORTFOLIO-ADFF2F?style=for-the-badge&logo=googlechrome&logoColor=black"/>
 </a>
 
 </div>
@@ -177,8 +123,8 @@
 
 <div align="center">
 
-### ⭐️ Designed by [herit007](https://github.com/herit007)
+### // DESIGNED_BY: HERIT_TANNA //
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00D9FF&height=100&section=footer&text=END+OF+TRANSMISSION&fontSize=30&fontAlignY=70&animation=twinkling&fontColor=ffffff" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=120&section=footer&text=TRANSMISSION_COMPLETE&fontSize=35&fontAlignY=50&fontColor=ADFF2F&desc=73.74.61.74.75.73.3a+6f.6e.6c.69.6e.65&descSize=12&descAlignY=75" />
 
 </div>
