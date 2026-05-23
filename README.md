@@ -111,15 +111,15 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=0D1117"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=00D9FF&text_color=FFFFFF&bg_color=0D1117"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&stroke=00D9FF&currStreakLabel=00D9FF" />
+<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -145,26 +145,28 @@
 
 ---
 
-# 🔴 CONNECT 4 CHALLENGE
+# 🕹️ INTERACTIVE STATION
 
 <div align="center">
 
-Let's play a game of Connect 4! Click on a column to drop your disc.
+<!-- BEGIN WORDLE BOARD -->
+### 🧩 Data Wordle
+Guess the hidden data-related word!
 
-<!-- BEGIN CONNECT4 BOARD -->
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|---|---|---|---|---|---|---|
-| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+Tries remaining: 6
 
-**Current Turn:** 🔴
+Submit your 3-6 letter guess by [opening a new issue](https://github.com/herit007/herit007/issues/new?title=Wordle:+Guess+<YOUR_WORD>&body=Just+replace+<YOUR_WORD>+with+your+guess+and+submit!).
+<!-- END WORDLE BOARD -->
 
-Drop a disc: [Column 1](https://github.com/herit007/herit007/issues/new?title=Connect4:+Drop+1&body=Just+click+'Submit+new+issue'+to+make+your+move!) | [Column 2](https://github.com/herit007/herit007/issues/new?title=Connect4:+Drop+2&body=Just+click+'Submit+new+issue'+to+make+your+move!) | [Column 3](https://github.com/herit007/herit007/issues/new?title=Connect4:+Drop+3&body=Just+click+'Submit+new+issue'+to+make+your+move!) | [Column 4](https://github.com/herit007/herit007/issues/new?title=Connect4:+Drop+4&body=Just+click+'Submit+new+issue'+to+make+your+move!) | [Column 5](https://github.com/herit007/herit007/issues/new?title=Connect4:+Drop+5&body=Just+click+'Submit+new+issue'+to+make+your+move!) | [Column 6](https://github.com/herit007/herit007/issues/new?title=Connect4:+Drop+6&body=Just+click+'Submit+new+issue'+to+make+your+move!) | [Column 7](https://github.com/herit007/herit007/issues/new?title=Connect4:+Drop+7&body=Just+click+'Submit+new+issue'+to+make+your+move!)
-<!-- END CONNECT4 BOARD -->
+</div>
+
+---
+
+# 🐍 CONTRIBUTION SNAKE
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/herit007/herit007/output/github-contribution-grid-snake-dark.svg" width="100%">
 
 </div>
 

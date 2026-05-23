@@ -1,13 +1,13 @@
-name: Connect 4
+name: Wordle
 
 on:
   issues:
     types: [opened]
 
 jobs:
-  move:
+  play:
     runs-on: ubuntu-latest
-    if: startsWith(github.event.issue.title, 'Connect4:')
+    if: startsWith(github.event.issue.title, 'Wordle:')
     permissions:
       contents: write
       issues: write
@@ -17,19 +17,19 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-      - name: Make Move
+      - name: Process Guess
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
-        run: python3 scripts/connect4.py
+        run: python3 scripts/wordle.py
       - name: Commit changes
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Connect 4: ${{ github.event.issue.title }}" || exit 0
+          git commit -m "Wordle: ${{ github.event.issue.title }}" || exit 0
           git push
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
           issue-number: ${{ github.event.issue.number }}
-          comment: "Move processed! Check the README for the updated board."
+          comment: "Wordle guess processed! Check the README for the updated board."
