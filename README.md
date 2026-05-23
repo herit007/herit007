@@ -129,7 +129,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=herit007&theme=tokyo-night&bg_color=0d1117&hide_border=true&color=00d9ff" width="100%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight" width="100%"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=herit007&theme=tokyonight" width="49%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=herit007&theme=tokyonight" width="49%"/>
 
 </div>
 
@@ -162,11 +165,11 @@ Submit your 3-6 letter guess by [opening a new issue](https://github.com/herit00
 
 ---
 
-# 🐍 CONTRIBUTION SNAKE
+# 🧊 3D CONTRIBUTION VOID
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/github-contribution-grid-snake-dark.svg" width="100%">
+<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-rainbow.svg" width="100%">
 
 </div>
 
