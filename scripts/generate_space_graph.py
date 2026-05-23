@@ -10,9 +10,9 @@ OUTPUT_FILE = "dist/space-contribution-graph.svg"
 # Colors
 SPACE_BG = "#0d1117"
 STAR_COLOR = "#ffffff"
-SPACESHIP_COLOR = "#7c3aed"
-LASER_COLOR = "#22c55e"
-LASER_GLOW = "#4ade80"
+SPACESHIP_COLOR = "#00d9ff"
+LASER_COLOR = "#a855f7"
+LASER_GLOW = "#c084fc"
 
 def fetch_contributions():
     """Fetch contribution data from GitHub GraphQL API"""
@@ -66,13 +66,13 @@ def get_color_for_count(count):
     if count == 0:
         return "#161b22"
     elif count < 3:
-        return "#0e4429"
+        return "#003d4d"
     elif count < 6:
-        return "#006d32"
+        return "#006b80"
     elif count < 9:
-        return "#26a641"
+        return "#0099b3"
     else:
-        return "#39d353"
+        return "#00d9ff"
 
 def generate_svg(contributions):
     """Generate space-themed SVG with spaceship firing at contributions"""
@@ -129,9 +129,9 @@ def generate_svg(contributions):
     <defs>
         <!-- Gradients -->
         <linearGradient id="spaceshipGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
-            <stop offset="50%" style="stop-color:#a855f7;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#c084fc;stop-opacity:1" />
+            <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#00a3cc;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#00d9ff;stop-opacity:1" />
         </linearGradient>
         
         <radialGradient id="engineGlow">
@@ -303,7 +303,7 @@ def generate_svg(contributions):
     svg += f'''    <!-- Spaceship -->
     <g class="spaceship-group">
         <!-- Main Body -->
-        <ellipse cx="45" cy="{spaceship_y}" rx="25" ry="15" fill="url(#spaceshipGradient)" stroke="#a855f7" stroke-width="1.5"/>
+        <ellipse cx="45" cy="{spaceship_y}" rx="25" ry="15" fill="url(#spaceshipGradient)" stroke="#00d9ff" stroke-width="1.5"/>
         
         <!-- Cockpit -->
         <ellipse cx="55" cy="{spaceship_y}" rx="12" ry="8" fill="#1e293b" opacity="0.8"/>
@@ -311,8 +311,8 @@ def generate_svg(contributions):
         <circle cx="58" cy="{spaceship_y - 2}" r="2" fill="#93c5fd" opacity="0.7"/>
         
         <!-- Wings -->
-        <path d="M 30 {spaceship_y - 8} L 20 {spaceship_y - 18} L 35 {spaceship_y - 10} Z" fill="#6366f1" opacity="0.9"/>
-        <path d="M 30 {spaceship_y + 8} L 20 {spaceship_y + 18} L 35 {spaceship_y + 10} Z" fill="#6366f1" opacity="0.9"/>
+        <path d="M 30 {spaceship_y - 8} L 20 {spaceship_y - 18} L 35 {spaceship_y - 10} Z" fill="#a855f7" opacity="0.9"/>
+        <path d="M 30 {spaceship_y + 8} L 20 {spaceship_y + 18} L 35 {spaceship_y + 10} Z" fill="#a855f7" opacity="0.9"/>
         
         <!-- Engine Exhausts -->
         <g class="flame">
@@ -325,15 +325,15 @@ def generate_svg(contributions):
         </g>
         
         <!-- Engine Cores -->
-        <circle cx="23" cy="{spaceship_y - 5}" r="3" fill="#7c3aed" stroke="#a855f7" stroke-width="1"/>
-        <circle cx="23" cy="{spaceship_y + 5}" r="3" fill="#7c3aed" stroke="#a855f7" stroke-width="1"/>
+        <circle cx="23" cy="{spaceship_y - 5}" r="3" fill="#00d9ff" stroke="#a855f7" stroke-width="1"/>
+        <circle cx="23" cy="{spaceship_y + 5}" r="3" fill="#00d9ff" stroke="#a855f7" stroke-width="1"/>
         
         <!-- Weapon/Gun (where lasers come from) -->
-        <rect x="68" y="{spaceship_y - 2}" width="8" height="4" fill="#8b5cf6" rx="1"/>
+        <rect x="68" y="{spaceship_y - 2}" width="8" height="4" fill="#00d9ff" rx="1"/>
         <circle cx="76" cy="{spaceship_y}" r="2" fill="{LASER_COLOR}" opacity="0.8"/>
         
         <!-- Detail Lines -->
-        <line x1="35" y1="{spaceship_y}" x2="60" y2="{spaceship_y}" stroke="#a855f7" stroke-width="1" opacity="0.5"/>
+        <line x1="35" y1="{spaceship_y}" x2="60" y2="{spaceship_y}" stroke="#00d9ff" stroke-width="1" opacity="0.5"/>
     </g>
     
     <!-- Stats Text -->
