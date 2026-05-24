@@ -69,6 +69,18 @@
 
 ---
 
+# 💣 COMMUNITY STATION
+
+<div align="center">
+
+<!-- BEGIN MINESWEEPER BOARD -->
+[Start New Game](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+New+Game)
+<!-- END MINESWEEPER BOARD -->
+
+</div>
+
+---
+
 # 🚀 FEATURED UNIVERSE
 
 <div align="center">
@@ -134,6 +146,10 @@
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight" width="100%"/>
 
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="85%"/>
+=======
 <table>
   <tr>
     <td width="50%" align="center">
@@ -172,7 +188,7 @@
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="mailto:gwability@gmail.com">
+<a href="mailto:blender740@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
