@@ -130,11 +130,11 @@
 
 ---
 
-# 🌈 THE RAINBOW VOID
+# 🌈 THE NIGHT GREEN VOID
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-rainbow.svg" width="100%">
+<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-green.svg" width="100%">
 
 </div>
 
@@ -149,6 +149,22 @@
 <br>
 
 <img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="85%"/>
+=======
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=herit007&theme=tokyonight" width="100%"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=herit007&theme=tokyonight" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="90%"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
