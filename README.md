@@ -9,6 +9,17 @@
 
 ---
 
+# 🖥️ SYSTEM STATUS
+
+<!-- SYSTEM_STATUS_START -->
+| 🛰️ Status | 🟢 Operational |
+| :--- | :--- |
+| **Last Synchronized** | `2026-05-24 09:05:34 UTC` |
+| **Tactical Tip** | `In Git, use descriptive commit messages to help your future self and teammates.` |
+<!-- SYSTEM_STATUS_END -->
+
+---
+
 # 🛸 MISSION CONTROL
 
 <table>
@@ -53,6 +64,18 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+</div>
+
+---
+
+# 💣 COMMUNITY STATION
+
+<div align="center">
+
+<!-- BEGIN MINESWEEPER BOARD -->
+[Start New Game](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+New+Game)
+<!-- END MINESWEEPER BOARD -->
 
 </div>
 
