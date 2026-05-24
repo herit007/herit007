@@ -3,7 +3,7 @@
 # 🌌 HERIT TANNA
 ### 🚀 Data Architect | AI & Analytics Visionary
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=150&lines=Decoding+Data+to+Drive+Innovation;Building+Intelligent+Data+Experiences;Transforming+Raw+Information+into+Strategic+Insights" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=200&lines=Decoding+Data+to+Drive+Innovation;Building+Intelligent+Data+Experiences;Transforming+Raw+Information+into+Strategic+Insights" alt="Typing SVG" />
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="800">
 
@@ -14,24 +14,24 @@
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="https://skillicons.dev/icons?i=py" width="40"/><br>
+      🤖<br>
       <b>Machine Learning</b><br>
-      Predictive Modeling & Deep Learning
+      Predictive Modeling
     </td>
     <td align="center" width="25%">
-      <img src="https://skillicons.dev/icons?i=postgres" width="40"/><br>
+      📊<br>
       <b>Data Analytics</b><br>
-      Interactive Dashboards & Visual Storytelling
+      Visual Storytelling
     </td>
     <td align="center" width="25%">
-      <img src="https://skillicons.dev/icons?i=githubactions" width="40"/><br>
+      ☁️<br>
       <b>MLOps</b><br>
-      Deployment & Scalable Architectures
+      Scalable Architectures
     </td>
     <td align="center" width="25%">
-      <img src="https://skillicons.dev/icons?i=linux" width="40"/><br>
+      🎯<br>
       <b>Strategic Growth</b><br>
-      Turning Data into Business Impact
+      Business Impact
     </td>
   </tr>
 </table>
@@ -125,14 +125,45 @@
 
 ---
 
+# 🕹️ COMMUNITY STATION
+
+<div align="center">
+
+<!-- BEGIN MINESWEEPER BOARD -->
+### 💣 Community Minesweeper
+Can you clear the grid without hitting a mine?
+
+|   | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| **A** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A5) |
+| **B** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B5) |
+| **C** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C5) |
+| **D** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D5) |
+| **E** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E5) |
+
+Click a `[?]` to reveal a tile!
+
+<!-- END MINESWEEPER BOARD -->
+
+</div>
+
+---
+
+# 🌈 RAINBOW 3D CONTRIBUTION VOID
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-rainbow.svg" width="100%">
+
+</div>
+
+---
+
 # 📈 VIRTUAL ACTIVITY
 
 <div align="center">
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight" width="100%"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=herit007&theme=tokyonight" width="49%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=herit007&theme=tokyonight" width="49%"/>
 
 </div>
 
@@ -143,33 +174,6 @@
 <div align="center">
 
 <img src="https://github-profile-trophy.vercel.app/?username=herit007&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
-
-</div>
-
----
-
-# 🕹️ INTERACTIVE STATION
-
-<div align="center">
-
-<!-- BEGIN WORDLE BOARD -->
-### 🧩 Data Wordle
-Guess the hidden data-related word!
-
-Tries remaining: 6
-
-Submit your 3-6 letter guess by [opening a new issue](https://github.com/herit007/herit007/issues/new?title=Wordle:+Guess+<YOUR_WORD>&body=Just+replace+<YOUR_WORD>+with+your+guess+and+submit!).
-<!-- END WORDLE BOARD -->
-
-</div>
-
----
-
-# 🧊 3D CONTRIBUTION VOID
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-rainbow.svg" width="100%">
 
 </div>
 
