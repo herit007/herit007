@@ -117,51 +117,25 @@
 
 ---
 
-# 📊 NEURAL METRICS
+# 📊 NEURAL ANALYTICS
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight" width="100%"/>
-
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=herit007&theme=tokyonight" width="100%"/>
+    <td align="center" width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight" width="100%"/>
     </td>
-    <td width="50%" align="center">
+    <td align="center" width="50%">
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=herit007&theme=tokyonight" width="100%"/>
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center">
+    <td align="center" colspan="2">
       <img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="90%"/>
     </td>
   </tr>
 </table>
-
-</div>
-
----
-
-# 🕹️ COMMUNITY STATION
-
-<div align="center">
-
-<!-- BEGIN MINESWEEPER BOARD -->
-### 💣 Community Minesweeper
-Can you clear the grid without hitting a mine?
-
-|   | 1 | 2 | 3 | 4 | 5 |
-|---|---|---|---|---|---|
-| **A** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A5) |
-| **B** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B5) |
-| **C** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C5) |
-| **D** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D5) |
-| **E** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E5) |
-
-Click a `[?]` to reveal a tile!
-
-<!-- END MINESWEEPER BOARD -->
 
 </div>
 
