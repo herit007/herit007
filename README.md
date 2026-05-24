@@ -143,30 +143,6 @@
 
 ---
 
-# 🕹️ COMMUNITY STATION
-
-<div align="center">
-
-<!-- BEGIN MINESWEEPER BOARD -->
-### 💣 Community Minesweeper
-Can you clear the grid without hitting a mine?
-
-|   | 1 | 2 | 3 | 4 | 5 |
-|---|---|---|---|---|---|
-| **A** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A1) | 1️⃣ | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+A5) |
-| **B** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B2) | 2️⃣ | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+B5) |
-| **C** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+C5) |
-| **D** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+D5) |
-| **E** | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E1) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E2) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E3) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E4) | [?](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+Reveal+E5) |
-
-Click a `[?]` to reveal a tile!
-
-<!-- END MINESWEEPER BOARD -->
-
-</div>
-
----
-
 # 🏆 LEGENDARY TROPHIES
 
 <div align="center">
