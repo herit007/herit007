@@ -107,19 +107,37 @@
 
 ---
 
-# 📊 NEON ANALYTICS
+# 🌈 THE RAINBOW VOID
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-rainbow.svg" width="100%">
 
 </div>
 
+---
+
+# 📊 NEURAL METRICS
+
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight" width="100%"/>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=herit007&theme=tokyonight" width="100%"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=herit007&theme=tokyonight" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="90%"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -144,26 +162,6 @@ Can you clear the grid without hitting a mine?
 Click a `[?]` to reveal a tile!
 
 <!-- END MINESWEEPER BOARD -->
-
-</div>
-
----
-
-# 🌈 RAINBOW 3D CONTRIBUTION VOID
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-rainbow.svg" width="100%">
-
-</div>
-
----
-
-# 📈 VIRTUAL ACTIVITY
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight" width="100%"/>
 
 </div>
 
