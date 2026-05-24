@@ -107,7 +107,7 @@
 
 ---
 
-# 🌈 THE RAINBOW VOID
+# 🌈 THE NIGHT GREEN VOID
 
 <div align="center">
 
