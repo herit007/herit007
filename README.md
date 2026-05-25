@@ -14,8 +14,8 @@
 <!-- SYSTEM_STATUS_START -->
 | 🛰️ Status | 🟢 Operational |
 | :--- | :--- |
-| **Last Synchronized** | `2026-05-24 14:09:06 UTC` |
-| **Tactical Tip** | `In Git, use descriptive commit messages to help your future self and teammates.` |
+| **Last Synchronized** | `2026-05-25 09:20:07 UTC` |
+| **Tactical Tip** | `The zip() function is great for iterating over multiple lists in parallel.` |
 <!-- SYSTEM_STATUS_END -->
 
 ---
@@ -64,18 +64,6 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-</div>
-
----
-
-# 💣 COMMUNITY STATION
-
-<div align="center">
-
-<!-- BEGIN MINESWEEPER BOARD -->
-[Start New Game](https://github.com/herit007/herit007/issues/new?title=Minesweeper:+New+Game)
-<!-- END MINESWEEPER BOARD -->
 
 </div>
 
@@ -130,11 +118,11 @@
 
 ---
 
-# 🌈 THE NIGHT GREEN VOID
+# 🌈 THE RAINBOW VOID
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-green.svg" width="100%">
+<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-rainbow.svg" width="100%">
 
 </div>
 
@@ -148,23 +136,7 @@
 
 <br>
 
-<!-- <img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="85%"/> -->
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=herit007&theme=tokyonight" width="100%"/>
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=herit007&theme=tokyonight" width="100%"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-     <!-- <img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="90%"/> -->
-    </td>
-  </tr>
-</table>
+<img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="85%"/>
 
 </div>
 
