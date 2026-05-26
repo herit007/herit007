@@ -2,12 +2,19 @@ import json
 import datetime
 import os
 
-def get_daily_tip():
-    """Fetches a daily tip from the data/tips.json file."""
+def get_daily_tip(tips_path):
+    """Fetches a daily tip from the tips.json file."""
     try:
-        with open('data/tips.json', 'r') as f:
+        if not os.path.exists(tips_path):
+            print(f"Error: Tips file not found at {tips_path}")
+            return "Stay curious and keep coding!"
+
+        with open(tips_path, 'r') as f:
             data = json.load(f)
-        tips = data['tips']
+        tips = data.get('tips', [])
+        if not tips:
+            return "Stay curious and keep coding!"
+
         # Use day of the year in UTC to select a tip consistently
         day_of_year = datetime.datetime.now(datetime.timezone.utc).timetuple().tm_yday
         return tips[day_of_year % len(tips)]
@@ -15,21 +22,25 @@ def get_daily_tip():
         print(f"Error fetching tip: {e}")
         return "Stay curious and keep coding!"
 
-def update_readme():
+def update_readme(readme_path, tips_path):
     """Updates the README.md file with the latest status and tip."""
-    tip = get_daily_tip()
+    tip = get_daily_tip(tips_path)
     # Use timezone-aware datetime for UTC
     current_time = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
 
     try:
-        with open('README.md', 'r') as f:
+        if not os.path.exists(readme_path):
+            print(f"Error: README.md not found at {readme_path}")
+            return
+
+        with open(readme_path, 'r') as f:
             content = f.read()
 
         start_marker = '<!-- SYSTEM_STATUS_START -->'
         end_marker = '<!-- SYSTEM_STATUS_END -->'
 
         if start_marker not in content or end_marker not in content:
-            print("Markers not found in README.md")
+            print("Error: Markers not found in README.md")
             return
 
         status_section = (
@@ -47,7 +58,11 @@ def update_readme():
 
         new_content = content[:start_idx] + status_section + content[end_idx:]
 
-        with open('README.md', 'w') as f:
+        if new_content == content:
+            print("No changes detected in README.md content.")
+            return
+
+        with open(readme_path, 'w') as f:
             f.write(new_content)
 
         print(f"README successfully updated at {current_time}")
@@ -57,4 +72,9 @@ def update_readme():
         print(f"Error updating README: {e}")
 
 if __name__ == "__main__":
-    update_readme()
+    # Get absolute paths to files relative to the script's directory
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    readme_file = os.path.join(base_dir, 'README.md')
+    tips_file = os.path.join(base_dir, 'data', 'tips.json')
+
+    update_readme(readme_file, tips_file)

@@ -19,6 +19,16 @@
     "SQL: Indexing columns used in JOIN and WHERE clauses can drastically improve query speed.",
     "Version control your data and models, not just your code (tools like DVC can help).",
     "Gradient Boosting (XGBoost, LightGBM) often wins Kaggle competitions for tabular data.",
-    "Documentation is a love letter to your future self."
+    "Documentation is a love letter to your future self.",
+    "Use try...except blocks to handle exceptions gracefully and prevent your program from crashing.",
+    "Deep learning: Dropout is a powerful technique to prevent overfitting in neural networks.",
+    "In Python, use f-strings for more readable and efficient string formatting.",
+    "Always document your functions using docstrings (PEP 257) to explain their purpose and parameters.",
+    "Data Visualization: Choose the right chart type to effectively communicate your data's story.",
+    "Use itertools for efficient looping and iterator manipulation in Python.",
+    "When working with large datasets, consider using chunking in pandas to save memory.",
+    "Machine Learning: Early stopping is a simple way to prevent overfitting during training.",
+    "SQL: Use EXPLAIN to understand how your database executes a query and identify bottlenecks.",
+    "Keep your code modular by breaking it into smaller, reusable components."
   ]
 }
