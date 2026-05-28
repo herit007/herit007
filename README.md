@@ -118,11 +118,11 @@
 
 ---
 
-# 🌈 THE RAINBOW VOID
+# 🌈 THE GREEN VOID
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-rainbow.svg" width="100%">
+<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-green.svg" width="100%">
 
 </div>
 
