@@ -9,7 +9,7 @@ def get_daily_tip(tips_path):
             print(f"Error: Tips file not found at {tips_path}")
             return "Stay curious and keep coding!"
 
-        with open(tips_path, 'r') as f:
+        with open(tips_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         tips = data.get('tips', [])
         if not tips:
@@ -33,7 +33,7 @@ def update_readme(readme_path, tips_path):
             print(f"Error: README.md not found at {readme_path}")
             return
 
-        with open(readme_path, 'r') as f:
+        with open(readme_path, 'r', encoding='utf-8') as f:
             content = f.read()
 
         start_marker = '<!-- SYSTEM_STATUS_START -->'
@@ -62,7 +62,7 @@ def update_readme(readme_path, tips_path):
             print("No changes detected in README.md content.")
             return
 
-        with open(readme_path, 'w') as f:
+        with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(new_content)
 
         print(f"README successfully updated at {current_time}")
