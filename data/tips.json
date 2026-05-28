@@ -29,6 +29,9 @@
     "When working with large datasets, consider using chunking in pandas to save memory.",
     "Machine Learning: Early stopping is a simple way to prevent overfitting during training.",
     "SQL: Use EXPLAIN to understand how your database executes a query and identify bottlenecks.",
-    "Keep your code modular by breaking it into smaller, reusable components."
+    "Keep your code modular by breaking it into smaller, reusable components.",
+    "Use the 'with' statement for resource management (like opening files) to ensure they are properly closed.",
+    "Python: 'enumerate()' is better than 'range(len())' when you need both the index and the value.",
+    "ML: SHAP or LIME can help explain the predictions of complex 'black box' models."
   ]
 }
