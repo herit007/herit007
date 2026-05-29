@@ -14,8 +14,8 @@
 <!-- SYSTEM_STATUS_START -->
 | 🛰️ Status | 🟢 Operational |
 | :--- | :--- |
-| **Last Synchronized** | `2026-05-28 09:35:49 UTC` |
-| **Tactical Tip** | `SQL: Indexing columns used in JOIN and WHERE clauses can drastically improve query speed.` |
+| **Last Synchronized** | `2026-05-29 09:18:19 UTC` |
+| **Tactical Tip** | `Version control your data and models, not just your code (tools like DVC can help).` |
 <!-- SYSTEM_STATUS_END -->
 
 ---
