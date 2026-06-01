@@ -32,6 +32,7 @@
     "Keep your code modular by breaking it into smaller, reusable components.",
     "Use the 'with' statement for resource management (like opening files) to ensure they are properly closed.",
     "Python: 'enumerate()' is better than 'range(len())' when you need both the index and the value.",
-    "ML: SHAP or LIME can help explain the predictions of complex 'black box' models."
+    "ML: SHAP or LIME can help explain the predictions of complex 'black box' models.",
+    "Data Science: Always maintain a data dictionary to keep track of feature definitions and units."
   ]
 }
