@@ -1,80 +1,107 @@
 import json
 import datetime
 import os
+import logging
+from typing import List, Optional
 
-def get_daily_tip(tips_path):
-    """Fetches a daily tip from the tips.json file."""
-    try:
-        if not os.path.exists(tips_path):
-            print(f"Error: Tips file not found at {tips_path}")
-            return "Stay curious and keep coding!"
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+logger = logging.getLogger(__name__)
 
-        with open(tips_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        tips = data.get('tips', [])
-        if not tips:
-            return "Stay curious and keep coding!"
+class ProfileStatusManager:
+    """Manages the synchronization of README content with system status and tips."""
 
-        # Use day of the year in UTC to select a tip consistently
-        day_of_year = datetime.datetime.now(datetime.timezone.utc).timetuple().tm_yday
-        return tips[day_of_year % len(tips)]
-    except Exception as e:
-        print(f"Error fetching tip: {e}")
-        return "Stay curious and keep coding!"
+    DEFAULT_TIP = "Stay curious and keep coding!"
+    START_MARKER = '<!-- SYSTEM_STATUS_START -->'
+    END_MARKER = '<!-- SYSTEM_STATUS_END -->'
 
-def update_readme(readme_path, tips_path):
-    """Updates the README.md file with the latest status and tip."""
-    tip = get_daily_tip(tips_path)
-    # Use timezone-aware datetime for UTC
-    current_time = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
+    def __init__(self, readme_path: str, tips_path: str):
+        self.readme_path = os.path.abspath(readme_path)
+        self.tips_path = os.path.abspath(tips_path)
 
-    try:
-        if not os.path.exists(readme_path):
-            print(f"Error: README.md not found at {readme_path}")
-            return
+    def get_daily_tip(self) -> str:
+        """Fetches a daily tip from the tips database using a UTC day-of-year index."""
+        try:
+            if not os.path.exists(self.tips_path):
+                logger.warning(f"Tips file not found at {self.tips_path}. Using fallback.")
+                return self.DEFAULT_TIP
 
-        with open(readme_path, 'r', encoding='utf-8') as f:
-            content = f.read()
+            with open(self.tips_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
 
-        start_marker = '<!-- SYSTEM_STATUS_START -->'
-        end_marker = '<!-- SYSTEM_STATUS_END -->'
+            tips: List[str] = data.get('tips', [])
+            if not tips:
+                logger.warning("No tips found in database. Using fallback.")
+                return self.DEFAULT_TIP
 
-        if start_marker not in content or end_marker not in content:
-            print("Error: Markers not found in README.md")
-            return
+            # Use day of the year in UTC to select a tip consistently
+            day_of_year = datetime.datetime.now(datetime.timezone.utc).timetuple().tm_yday
+            selected_tip = tips[day_of_year % len(tips)]
+            return selected_tip
 
-        status_section = (
-            f"{start_marker}\n"
+        except Exception as e:
+            logger.error(f"Error fetching tip: {e}")
+            return self.DEFAULT_TIP
+
+    def generate_status_section(self, tip: str, timestamp: str) -> str:
+        """Generates the formatted status section for the README."""
+        return (
+            f"{self.START_MARKER}\n"
             f"| 🛰️ Status | 🟢 Operational |\n"
             f"| :--- | :--- |\n"
-            f"| **Last Synchronized** | `{current_time}` |\n"
+            f"| **Last Synchronized** | `{timestamp}` |\n"
             f"| **Tactical Tip** | `{tip}` |\n"
-            f"{end_marker}"
+            f"{self.END_MARKER}"
         )
 
-        # Find markers and replace content
-        start_idx = content.find(start_marker)
-        end_idx = content.find(end_marker) + len(end_marker)
+    def update_readme(self) -> bool:
+        """Updates the README.md file with the latest system status."""
+        try:
+            if not os.path.exists(self.readme_path):
+                logger.error(f"README.md not found at {self.readme_path}")
+                return False
 
-        new_content = content[:start_idx] + status_section + content[end_idx:]
+            tip = self.get_daily_tip()
+            current_time = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
 
-        if new_content == content:
-            print("No changes detected in README.md content.")
-            return
+            with open(self.readme_path, 'r', encoding='utf-8') as f:
+                content = f.read()
 
-        with open(readme_path, 'w', encoding='utf-8') as f:
-            f.write(new_content)
+            if self.START_MARKER not in content or self.END_MARKER not in content:
+                logger.error("System status markers not found in README.md")
+                return False
 
-        print(f"README successfully updated at {current_time}")
-        print(f"Selected Tip: {tip}")
+            status_section = self.generate_status_section(tip, current_time)
 
-    except Exception as e:
-        print(f"Error updating README: {e}")
+            # Find markers and replace content
+            start_idx = content.find(self.START_MARKER)
+            end_idx = content.find(self.END_MARKER) + len(self.END_MARKER)
+
+            new_content = content[:start_idx] + status_section + content[end_idx:]
+
+            if new_content == content:
+                logger.info("No changes detected in README.md content.")
+                return False
+
+            with open(self.readme_path, 'w', encoding='utf-8') as f:
+                f.write(new_content)
+
+            logger.info(f"README successfully updated with tip: {tip}")
+            return True
+
+        except Exception as e:
+            logger.error(f"Critical error during README update: {e}")
+            return False
 
 if __name__ == "__main__":
-    # Get absolute paths to files relative to the script's directory
+    # Path resolution
     base_dir = os.path.dirname(os.path.abspath(__file__))
     readme_file = os.path.join(base_dir, 'README.md')
     tips_file = os.path.join(base_dir, 'data', 'tips.json')
 
-    update_readme(readme_file, tips_file)
+    manager = ProfileStatusManager(readme_file, tips_file)
+    manager.update_readme()
