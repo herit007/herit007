@@ -3,29 +3,33 @@ import datetime
 import os
 
 def get_daily_tip(tips_path):
-    """Fetches a daily tip from the tips.json file."""
+    """Fetches a daily tip from the tips.json file based on the day of the year."""
+    fallback_tip = "Stay curious and keep coding!"
     try:
         if not os.path.exists(tips_path):
             print(f"Error: Tips file not found at {tips_path}")
-            return "Stay curious and keep coding!"
+            return fallback_tip
 
         with open(tips_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
+
         tips = data.get('tips', [])
         if not tips:
-            return "Stay curious and keep coding!"
+            return fallback_tip
 
-        # Use day of the year in UTC to select a tip consistently
-        day_of_year = datetime.datetime.now(datetime.timezone.utc).timetuple().tm_yday
+        # Use UTC day of the year to select a tip consistently
+        now_utc = datetime.datetime.now(datetime.timezone.utc)
+        day_of_year = now_utc.timetuple().tm_yday
+
+        # Consistent selection of tip
         return tips[day_of_year % len(tips)]
     except Exception as e:
         print(f"Error fetching tip: {e}")
-        return "Stay curious and keep coding!"
+        return fallback_tip
 
 def update_readme(readme_path, tips_path):
-    """Updates the README.md file with the latest status and tip."""
+    """Updates the README.md file with the current UTC timestamp and a daily tip."""
     tip = get_daily_tip(tips_path)
-    # Use timezone-aware datetime for UTC
     current_time = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
 
     try:
@@ -40,39 +44,42 @@ def update_readme(readme_path, tips_path):
         end_marker = '<!-- SYSTEM_STATUS_END -->'
 
         if start_marker not in content or end_marker not in content:
-            print("Error: Markers not found in README.md")
+            print(f"Error: Markers {start_marker} or {end_marker} not found in README.md")
             return
 
-        status_section = (
-            f"{start_marker}\n"
-            f"| 🛰️ Status | 🟢 Operational |\n"
-            f"| :--- | :--- |\n"
-            f"| **Last Synchronized** | `{current_time}` |\n"
-            f"| **Tactical Tip** | `{tip}` |\n"
-            f"{end_marker}"
-        )
+        # Prepare the status section content
+        status_lines = [
+            start_marker,
+            f"| 🛰️ Status | 🟢 Operational |",
+            f"| :--- | :--- |",
+            f"| **Last Synchronized** | `{current_time}` |",
+            f"| **Tactical Tip** | `{tip}` |",
+            end_marker
+        ]
+        status_section = "\n".join(status_lines)
 
-        # Find markers and replace content
+        # Replace the content between markers
         start_idx = content.find(start_marker)
         end_idx = content.find(end_marker) + len(end_marker)
 
         new_content = content[:start_idx] + status_section + content[end_idx:]
 
+        # Avoid redundant writes if nothing changed (though timestamp usually changes)
         if new_content == content:
-            print("No changes detected in README.md content.")
+            print("No changes detected in README.md.")
             return
 
         with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(new_content)
 
-        print(f"README successfully updated at {current_time}")
-        print(f"Selected Tip: {tip}")
+        print(f"Successfully updated README.md at {current_time}")
+        print(f"Tip of the day: {tip}")
 
     except Exception as e:
-        print(f"Error updating README: {e}")
+        print(f"Failed to update README: {e}")
 
 if __name__ == "__main__":
-    # Get absolute paths to files relative to the script's directory
+    # Resolve paths relative to this script's location
     base_dir = os.path.dirname(os.path.abspath(__file__))
     readme_file = os.path.join(base_dir, 'README.md')
     tips_file = os.path.join(base_dir, 'data', 'tips.json')
