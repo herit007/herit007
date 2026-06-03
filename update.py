@@ -19,6 +19,7 @@ class ProfileStatusManager:
         try:
             if not os.path.exists(self.tips_path):
                 return fallback
+
 import logging
 from typing import List, Optional
 
@@ -30,6 +31,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class ProfileStatusManager:
+    """Manages the automated updates for the GitHub profile README."""
+
+    def __init__(self, readme_path: str, tips_path: str):
+        self.readme_path = readme_path
+        self.tips_path = tips_path
     """Manages the synchronization of README content and status updates."""
 
     def __init__(self, readme_path: str, tips_path: str):
@@ -40,6 +46,11 @@ class ProfileStatusManager:
 
     def get_daily_tip(self) -> str:
         """Fetches a daily tip from the tips.json file with a fallback mechanism."""
+        fallback_tip = "Stay curious and keep coding!"
+        try:
+            if not os.path.exists(self.tips_path):
+                logger.warning(f"Tips file not found at {self.tips_path}. Using fallback.")
+                return fallback_tip
         default_tip = "Stay curious and keep coding!"
         try:
             if not os.path.exists(self.tips_path):
@@ -51,6 +62,10 @@ class ProfileStatusManager:
 
             tips: List[str] = data.get('tips', [])
             if not tips:
+
+                logger.warning("No tips found in tips file. Using fallback.")
+                return fallback_tip
+
                 return fallback
 
             # Use UTC date to ensure consistency across all timezones
@@ -70,16 +85,24 @@ class ProfileStatusManager:
                 logger.warning("Tips list is empty. Using fallback.")
                 return default_tip
 
+
             # Use day of the year in UTC to select a tip consistently
             day_of_year = datetime.datetime.now(datetime.timezone.utc).timetuple().tm_yday
             selected_tip = tips[day_of_year % len(tips)]
             return selected_tip
         except Exception as e:
             logger.error(f"Error fetching tip: {e}")
+
+            return fallback_tip
+
+    def update_readme(self) -> bool:
+        """Updates the README.md file with the latest status and tip. Returns True if updated."""
+
             return default_tip
 
     def update_readme(self) -> bool:
         """Updates the README.md file with the latest status and tip."""
+
         tip = self.get_daily_tip()
         current_time = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
 
@@ -93,6 +116,9 @@ class ProfileStatusManager:
                 content = f.read()
 
             if self.start_marker not in content or self.end_marker not in content:
+
+                logger.error("System status markers not found in README.md")
+
 
                 print("Error: Required markers missing in README.md")
                 return False
@@ -142,6 +168,7 @@ if __name__ == "__main__":
         tips_path=os.path.join(ROOT_DIR, 'data', 'tips.json')
     )
     updater.update_readme()
+
             # Find markers and replace content
             start_idx = content.find(self.start_marker)
             end_idx = content.find(self.end_marker) + len(self.end_marker)
@@ -162,6 +189,7 @@ if __name__ == "__main__":
         except Exception as e:
             logger.error(f"Error updating README: {e}")
             return False
+
 
 if __name__ == "__main__":
     # Define file paths relative to this script
