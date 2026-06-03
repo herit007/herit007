@@ -33,7 +33,7 @@
     "Use the 'with' statement for resource management (like opening files) to ensure they are properly closed.",
     "Python: 'enumerate()' is better than 'range(len())' when you need both the index and the value.",
     "ML: SHAP or LIME can help explain the predictions of complex 'black box' models.",
-    "Data Science: Always maintain a data dictionary to keep track of feature definitions and units."
+    "Data Science: Always maintain a data dictionary to keep track of feature definitions and units.",
     "Python: Use 'pathlib' for more intuitive and readable filesystem path manipulations.",
     "ML: Ensemble methods like Stacking combine multiple models to often achieve superior performance.",
     "Data Science: Use 'pandas.Categorical' for data types with a fixed number of possible values to save memory.",

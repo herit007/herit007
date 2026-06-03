@@ -11,12 +11,8 @@ permissions:
   contents: write
 
 jobs:
-  maintenance:
-    name: Profile Status Synchronization
-
   sync-and-rotate:
     name: Sync README and Rotate Tip
-
     runs-on: ubuntu-latest
     steps:
       - name: 🛰️ Checkout Repository
@@ -46,10 +42,4 @@ jobs:
             git push origin HEAD
           else
             echo "Profile is already synchronized. No deployment needed."
-          # Check if there are changes to commit
-          if ! git diff --quiet && ! git diff --staged --quiet; then
-            git commit -m "System: Daily status update and tactical tip rotation"
-            git push
-          else
-            echo "No changes detected, skipping commit."
           fi
