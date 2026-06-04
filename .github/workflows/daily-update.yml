@@ -36,7 +36,7 @@ jobs:
 
           git add README.md
 
-          # Only commit and push if there are actual changes detected
+          # Only commit and push if there are actual changes detected in README.md
           if ! git diff --staged --quiet; then
             git commit -m "System: Automated daily status and tip synchronization"
             git push origin HEAD

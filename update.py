@@ -43,6 +43,7 @@ class ProfileStatusManager:
             day_index = now.timetuple().tm_yday
 
             # Deterministic selection based on day of the year
+
             return tips[day_index % len(tips)]
         except Exception as e:
             logger.error(f"Error fetching tip: {e}")
@@ -100,10 +101,14 @@ class ProfileStatusManager:
             return False
 
 if __name__ == "__main__":
+    # Resolve absolute paths relative to this script
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    README_FILE = os.path.join(BASE_DIR, 'README.md')
+    TIPS_FILE = os.path.join(BASE_DIR, 'data', 'tips.json')
     # Resolve paths relative to this script's location
     base_dir = os.path.dirname(os.path.abspath(__file__))
     readme_file = os.path.join(base_dir, 'README.md')
     tips_file = os.path.join(base_dir, 'data', 'tips.json')
 
-    manager = ProfileStatusManager(readme_file, tips_file)
+    manager = ProfileStatusManager(README_FILE, TIPS_FILE)
     manager.update_readme()
