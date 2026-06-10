@@ -147,7 +147,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=herit007&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=herit007&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=10" />
 
 </div>
 
