@@ -119,25 +119,42 @@
 
 ---
 
-# 🌈 THE RAINBOW VOID
+# THE CONTRIBUTION VOID
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-rainbow.svg" width="100%">
+<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-green.svg" width="100%">
 
 </div>
 
 ---
-
 # 📊 NEURAL METRICS
 
 <div align="center">
 
+<!-- Profile Summary -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight" width="100%"/>
 
-<br>
+<br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="85%"/>
+<!-- GitHub Stats -->
+<img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="49%"/>
+
+<!-- GitHub Streak -->
+<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true" width="49%"/>
+
+<br><br>
+
+<!-- Most Used Languages -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&theme=tokyonight&hide_border=true" width="49%"/>
+
+<!-- Repositories Per Language -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=herit007&theme=tokyonight" width="49%"/>
+
+<br><br>
+
+<!-- Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=herit007&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
 
 </div>
 
