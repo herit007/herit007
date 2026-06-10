@@ -1,4 +1,5 @@
 # Automated workflow to keep the GitHub Profile README updated with fresh tactical tips and system status.
+# Built to ensure daily synchronization of the profile README.
 name: Daily Profile Update
 
 on:
