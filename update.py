@@ -42,8 +42,6 @@ class ProfileStatusManager:
             now = datetime.datetime.now(datetime.timezone.utc)
             day_index = now.timetuple().tm_yday
 
-            # Deterministic selection based on day of the year
-
             return tips[day_index % len(tips)]
         except Exception as e:
             logger.error(f"Error fetching tip: {e}")
