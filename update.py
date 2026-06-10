@@ -112,7 +112,9 @@ class ProfileStatusManager:
             return False
 
 if __name__ == "__main__":
+  
     # Internal path resolution relative to the script location
+
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     README_FILE = os.path.join(BASE_DIR, 'README.md')
     TIPS_FILE = os.path.join(BASE_DIR, 'data', 'tips.json')
