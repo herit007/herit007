@@ -14,9 +14,8 @@
 <!-- SYSTEM_STATUS_START -->
 | 🛰️ Status | 🟢 Initializing |
 | :--- | :--- |
-| **Last Synchronized** | `Updating...` |
-| **Tactical Tip** | `Loading daily insight...` |
-| **Last Synchronized** | `2026-06-07 09:26:47 UTC` |
+| **Last Synchronized** | `2026-06-09 09:34:30 UTC` |
+| **Tactical Tip** | `SQL: Use EXPLAIN to understand how your database executes a query and identify bottlenecks.` |
 
 <!-- SYSTEM_STATUS_END -->
 

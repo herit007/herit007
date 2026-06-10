@@ -74,6 +74,7 @@ class ProfileStatusManager:
             now = datetime.datetime.now(datetime.timezone.utc)
             day_index = now.timetuple().tm_yday
 
+            # Deterministic selection based on day of the year
 
             return tips[day_index % len(tips)]
         except Exception as e:
@@ -155,6 +156,8 @@ class ProfileStatusManager:
             return False
 
 if __name__ == "__main__":
+
+    # Resolve absolute paths relative to this script
 
     # Define paths relative to the script's location for portability
     base_dir = os.path.dirname(os.path.abspath(__file__))
