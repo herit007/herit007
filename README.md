@@ -12,11 +12,10 @@
 # 🖥️ SYSTEM STATUS
 
 <!-- SYSTEM_STATUS_START -->
-| 🛰️ Status | 🟢 Initializing |
+| 🛰️ Status | 🟢 Operational |
 | :--- | :--- |
-| **Last Synchronized** | `2026-06-09 09:34:30 UTC` |
-| **Tactical Tip** | `SQL: Use EXPLAIN to understand how your database executes a query and identify bottlenecks.` |
-
+| **Last Synchronized** | `2026-06-11 09:08:55 UTC` |
+| **Tactical Tip** | `Use the 'with' statement for resource management (like opening files) to ensure they are properly closed.` |
 <!-- SYSTEM_STATUS_END -->
 
 ---
@@ -119,11 +118,11 @@
 
 ---
 
-# THE CONTRIBUTION VOID
+# 🌈 THE RAINBOW VOID
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-green.svg" width="100%">
+<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-rainbow.svg" width="100%">
 
 </div>
 
@@ -146,15 +145,7 @@
 <br><br>
 
 <!-- Most Used Languages -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&theme=tokyonight&hide_border=true" width="49%"/>
-
-<!-- Repositories Per Language -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=herit007&theme=tokyonight" width="49%"/>
-
-<br><br>
-
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=herit007&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&theme=tokyonight&hide_border=true" width="100%"/>
 
 </div>
 
