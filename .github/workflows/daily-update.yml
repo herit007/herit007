@@ -1,8 +1,5 @@
 # Automated workflow to keep the GitHub Profile README updated with fresh tactical tips and system status.
-
 # Optimized for natural contribution graph synchronization.
-
-# Built to ensure daily synchronization of the profile README.
 name: Daily Profile Update
 
 on:
@@ -42,7 +39,7 @@ jobs:
 
           # Only commit and push if there are actual changes detected in README.md
           if ! git diff --staged --quiet; then
-            git commit -m "System: Automated daily status and tip synchronization"
+            git commit -m "chore: automated daily status and tip synchronization"
             git push origin HEAD
           else
             echo "Profile is already synchronized. No deployment needed."
