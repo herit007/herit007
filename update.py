@@ -5,6 +5,8 @@ import logging
 from typing import List
 
 # Configure logging for clear, actionable output during CI execution
+# Configure logging to provide clear, actionable output during CI execution
+main
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -72,6 +74,8 @@ class ProfileStatusManager:
         """
         Updates the README.md file with the latest system status and tip.
         Only writes to disk if content has changed to prevent redundant commits.
+        Performs the README update. Only writes to disk if content has changed
+        to prevent redundant commits in the repository.
         """
         try:
             if not os.path.exists(self.readme_path):
@@ -91,12 +95,12 @@ class ProfileStatusManager:
             status_section = self.generate_status_section(tip, current_time)
 
             # Targeted replacement of the status block
+main
             start_idx = content.find(self.START_MARKER)
             end_idx = content.find(self.END_MARKER) + len(self.END_MARKER)
 
             new_content = content[:start_idx] + status_section + content[end_idx:]
 
-            # Avoid unnecessary writes if content hasn't changed
             if new_content == content:
                 logger.info("README content is already up-to-date. No write performed.")
                 return False
@@ -114,6 +118,9 @@ class ProfileStatusManager:
 
 if __name__ == "__main__":
     # Define paths relative to the script's location for portability
+
+ main
+
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     README_FILE = os.path.join(BASE_DIR, 'README.md')
     TIPS_FILE = os.path.join(BASE_DIR, 'data', 'tips.json')
