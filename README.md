@@ -12,11 +12,10 @@
 # 🖥️ SYSTEM STATUS
 
 <!-- SYSTEM_STATUS_START -->
-| 🛰️ Status | 🟢 Initializing |
+| 🛰️ Status | 🟢 Operational |
 | :--- | :--- |
-| **Last Synchronized** | `2026-06-09 09:34:30 UTC` |
-| **Tactical Tip** | `SQL: Use EXPLAIN to understand how your database executes a query and identify bottlenecks.` |
-
+| **Last Synchronized** | `2026-06-10 09:16:09 UTC` |
+| **Tactical Tip** | `Keep your code modular by breaking it into smaller, reusable components.` |
 <!-- SYSTEM_STATUS_END -->
 
 ---
@@ -138,23 +137,7 @@
 <br><br>
 
 <!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="49%"/>
-
-<!-- GitHub Streak -->
-<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true" width="49%"/>
-
-<br><br>
-
-<!-- Most Used Languages -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&theme=tokyonight&hide_border=true" width="49%"/>
-
-<!-- Repositories Per Language -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=herit007&theme=tokyonight" width="49%"/>
-
-<br><br>
-
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=herit007&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="100%"/>
 
 </div>
 
