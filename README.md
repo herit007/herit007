@@ -16,6 +16,8 @@
 | :--- | :--- |
 | **Last Synchronized** | `2026-06-11 09:08:55 UTC` |
 | **Tactical Tip** | `Use the 'with' statement for resource management (like opening files) to ensure they are properly closed.` |
+| **Last Synchronized** | `2026-06-10 09:16:09 UTC` |
+| **Tactical Tip** | `Keep your code modular by breaking it into smaller, reusable components.` |
 <!-- SYSTEM_STATUS_END -->
 
 ---
@@ -146,6 +148,7 @@
 
 <!-- Most Used Languages -->
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&theme=tokyonight&hide_border=true" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="100%"/>
 
 </div>
 
