@@ -4,7 +4,9 @@ import os
 import logging
 from typing import List
 
+# Configure logging for clear, actionable output during CI execution
 # Configure logging to provide clear, actionable output during CI execution
+main
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -70,6 +72,8 @@ class ProfileStatusManager:
 
     def update_readme(self) -> bool:
         """
+        Updates the README.md file with the latest system status and tip.
+        Only writes to disk if content has changed to prevent redundant commits.
         Performs the README update. Only writes to disk if content has changed
         to prevent redundant commits in the repository.
         """
@@ -116,6 +120,7 @@ if __name__ == "__main__":
     # Define paths relative to the script's location for portability
 
  main
+
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     README_FILE = os.path.join(BASE_DIR, 'README.md')
     TIPS_FILE = os.path.join(BASE_DIR, 'data', 'tips.json')
