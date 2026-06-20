@@ -1,3 +1,6 @@
+# Automated workflow to keep the GitHub Profile README updated with fresh tactical tips and system status.
+# Optimized for natural contribution graph synchronization.
+
 name: Daily Profile Update
 
 on:
