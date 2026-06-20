@@ -40,6 +40,8 @@ jobs:
           git add README.md
 
           if ! git diff --staged --quiet; then
+            git commit -m "chore: automated daily status and tip synchronization [skip ci]"
+
             git commit -m "chore: automated daily status and tip synchronization"
             git push origin HEAD
           else
