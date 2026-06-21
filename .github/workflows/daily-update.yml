@@ -8,8 +8,6 @@ on:
     # Runs at 12:30 UTC every day
     - cron: '30 12 * * *'
   workflow_dispatch: # Allows manual triggering
-    - cron: '30 12 * * *'
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -40,8 +38,6 @@ jobs:
           git add README.md
 
           if ! git diff --staged --quiet; then
-            git commit -m "chore: automated daily status and tip synchronization [skip ci]"
-
             git commit -m "chore: automated daily status and tip synchronization"
             git push origin HEAD
           else
