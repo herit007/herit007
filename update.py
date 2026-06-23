@@ -4,12 +4,7 @@ import os
 import logging
 from typing import List
 
-# Configure logging to provide clear, actionable output during CI execution
-
-# Configure logging for clear output during CI execution
 # Configure logging for clear, actionable output during CI execution
-# Configure logging to provide clear, actionable output during CI execution
-main
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -53,13 +48,7 @@ class ProfileStatusManager:
                 logger.warning("Empty tips database. Falling back to default.")
                 return self.DEFAULT_TIP
 
-            # Use UTC date to ensure global consistency
-            now = datetime.datetime.now(datetime.timezone.utc)
-            day_index = now.timetuple().tm_yday
-
-
-            # Deterministic selection based on the day of the year
-            # Select tip based on UTC day of the year
+            # Use UTC date to ensure global consistency and deterministic selection
             now = datetime.datetime.now(datetime.timezone.utc)
             day_index = now.timetuple().tm_yday
 
@@ -81,11 +70,8 @@ class ProfileStatusManager:
 
     def update_readme(self) -> bool:
         """
-
         Updates the README.md file with the latest system status and tip.
         Only writes to disk if content has changed to prevent redundant commits.
-        Performs the README update. Only writes to disk if content has changed
-        to prevent redundant commits in the repository.
         """
         try:
             if not os.path.exists(self.readme_path):
@@ -105,10 +91,6 @@ class ProfileStatusManager:
             status_section = self.generate_status_section(tip, current_time)
 
             # Targeted replacement of the status block
-
-
-
-main
             start_idx = content.find(self.START_MARKER)
             end_idx = content.find(self.END_MARKER) + len(self.END_MARKER)
 
@@ -122,7 +104,6 @@ main
                 f.write(new_content)
 
             logger.info(f"Successfully synchronized README at {current_time}")
-            logger.info(f"README successfully synchronized at {current_time}")
             logger.info(f"Active Tip: {tip}")
             return True
 
@@ -130,11 +111,15 @@ main
             logger.error(f"Failed to update README: {e}")
             return False
 
-if __name__ == "__main__":
+def main():
+    """Main execution entry point."""
     # Define paths relative to the script's location for portability
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    README_FILE = os.path.join(BASE_DIR, 'README.md')
-    TIPS_FILE = os.path.join(BASE_DIR, 'data', 'tips.json')
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    readme_file = os.path.join(base_dir, 'README.md')
+    tips_file = os.path.join(base_dir, 'data', 'tips.json')
 
-    manager = ProfileStatusManager(README_FILE, TIPS_FILE)
+    manager = ProfileStatusManager(readme_file, tips_file)
     manager.update_readme()
+
+if __name__ == "__main__":
+    main()
