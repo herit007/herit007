@@ -4,12 +4,7 @@ import os
 import logging
 from typing import List
 
-# Configure logging to provide clear, actionable output during CI execution
-
-# Configure logging for clear output during CI execution
 # Configure logging for clear, actionable output during CI execution
-# Configure logging to provide clear, actionable output during CI execution
-main
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -20,11 +15,7 @@ logger = logging.getLogger(__name__)
 class ProfileStatusManager:
     """
     Manages the automated synchronization of the GitHub Profile README.
-
-    Handles:
-    - Daily tip rotation based on UTC day-of-year index.
-    - Timestamp synchronization for system status.
-    - Content replacement using targeted markers.
+    Handles daily tip rotation and timestamp synchronization.
     """
 
     DEFAULT_TIP = "Stay curious and keep coding!"
@@ -37,8 +28,7 @@ class ProfileStatusManager:
 
     def get_daily_tip(self) -> str:
         """
-        Retrieves a deterministic daily tip from the JSON database.
-        Uses UTC date to ensure all visitors see the same tip globally.
+        Retrieves a deterministic daily tip from the JSON database based on the UTC day of the year.
         """
         try:
             if not os.path.exists(self.tips_path):
@@ -54,12 +44,6 @@ class ProfileStatusManager:
                 return self.DEFAULT_TIP
 
             # Use UTC date to ensure global consistency
-            now = datetime.datetime.now(datetime.timezone.utc)
-            day_index = now.timetuple().tm_yday
-
-
-            # Deterministic selection based on the day of the year
-            # Select tip based on UTC day of the year
             now = datetime.datetime.now(datetime.timezone.utc)
             day_index = now.timetuple().tm_yday
 
@@ -81,15 +65,12 @@ class ProfileStatusManager:
 
     def update_readme(self) -> bool:
         """
-
         Updates the README.md file with the latest system status and tip.
-        Only writes to disk if content has changed to prevent redundant commits.
-        Performs the README update. Only writes to disk if content has changed
-        to prevent redundant commits in the repository.
+        Only writes to disk if content has changed.
         """
         try:
             if not os.path.exists(self.readme_path):
-                logger.error(f"README.md not found at {self.readme_path}. Execution aborted.")
+                logger.error(f"README.md not found at {self.readme_path}.")
                 return False
 
             tip = self.get_daily_tip()
@@ -104,11 +85,6 @@ class ProfileStatusManager:
 
             status_section = self.generate_status_section(tip, current_time)
 
-            # Targeted replacement of the status block
-
-
-
-main
             start_idx = content.find(self.START_MARKER)
             end_idx = content.find(self.END_MARKER) + len(self.END_MARKER)
 
@@ -122,7 +98,6 @@ main
                 f.write(new_content)
 
             logger.info(f"Successfully synchronized README at {current_time}")
-            logger.info(f"README successfully synchronized at {current_time}")
             logger.info(f"Active Tip: {tip}")
             return True
 
@@ -131,7 +106,6 @@ main
             return False
 
 if __name__ == "__main__":
-    # Define paths relative to the script's location for portability
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     README_FILE = os.path.join(BASE_DIR, 'README.md')
     TIPS_FILE = os.path.join(BASE_DIR, 'data', 'tips.json')
