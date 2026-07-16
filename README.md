@@ -14,9 +14,8 @@
 <!-- SYSTEM_STATUS_START -->
 | 🛰️ Status | 🟢 Operational |
 | :--- | :--- |
-| **Last Synchronized** | `2026-07-15 08:01:34 IST` |
-| **Tactical Tip** | `Use try...except blocks to handle exceptions gracefully and prevent your program from crashing.` |
-
+| **Last Synchronized** | `2026-07-16 06:13:31 UTC` |
+| **Tactical Tip** | `Deep learning: Dropout is a powerful technique to prevent overfitting in neural networks.` |
 <!-- SYSTEM_STATUS_END -->
 
 ---
@@ -132,13 +131,8 @@
 
 <div align="center">
 
-<!-- Profile Summary -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight" width="100%"/>
-
-<br><br>
-
 <!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="49%"/>
+<img src="https://gh-stats.work/api?username=herit007&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" width="49%"/>
 
 <!-- GitHub Streak -->
 <img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true" width="49%"/>
@@ -146,10 +140,7 @@
 <br><br>
 
 <!-- Most Used Languages -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&theme=tokyonight&hide_border=true" width="49%"/>
-
-<!-- Repositories Per Language -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=herit007&theme=tokyonight" width="49%"/>
+<img src="https://gh-stats.work/api/top-langs/?username=herit007&layout=compact&theme=tokyonight&hide_border=true" width="49%"/>
 
 <br><br>
 
@@ -163,7 +154,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=herit007&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&row=1&column=7" />
+<img src="https://github-profile-trophy-tawny.vercel.app/?username=herit007&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&row=1&column=7" />
 
 </div>
 
