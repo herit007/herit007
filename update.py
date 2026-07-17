@@ -2,12 +2,12 @@ import json
 import datetime
 import os
 import logging
-from typing import List
+from typing import List, Optional
 
-# Configure logging to provide clear, actionable output during CI execution
+# Configure logging with clear, professional output formatting
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
+    format='%(asctime)s [%(levelname)s] %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 logger = logging.getLogger(__name__)
@@ -16,28 +16,28 @@ class ProfileStatusManager:
     """
     Manages the automated synchronization of the GitHub Profile README.
 
-    Handles:
+    This includes:
     - Daily tip rotation based on UTC day-of-year index.
-    - Timestamp synchronization for system status.
-    - Content replacement using targeted markers.
+    - Synchronizing the operational status and timestamp.
+    - Safe marker-based content replacement.
     """
 
-    DEFAULT_TIP = "Stay curious and keep coding!"
-    START_MARKER = '<!-- SYSTEM_STATUS_START -->'
-    END_MARKER = '<!-- SYSTEM_STATUS_END -->'
+    DEFAULT_TIP: str = "Stay curious and keep coding!"
+    START_MARKER: str = '<!-- SYSTEM_STATUS_START -->'
+    END_MARKER: str = '<!-- SYSTEM_STATUS_END -->'
 
-    def __init__(self, readme_path: str, tips_path: str):
+    def __init__(self, readme_path: str, tips_path: str) -> None:
         self.readme_path = os.path.abspath(readme_path)
         self.tips_path = os.path.abspath(tips_path)
 
     def get_daily_tip(self) -> str:
         """
         Retrieves a deterministic daily tip from the JSON database.
-        Uses UTC date to ensure all visitors see the same tip globally.
+        Uses UTC day-of-year index to ensure global consistency across timezones.
         """
         try:
             if not os.path.exists(self.tips_path):
-                logger.warning(f"Tips database missing at {self.tips_path}. Falling back to default.")
+                logger.warning(f"Tips database file not found at: {self.tips_path}. Using fallback.")
                 return self.DEFAULT_TIP
 
             with open(self.tips_path, 'r', encoding='utf-8') as f:
@@ -45,16 +45,17 @@ class ProfileStatusManager:
 
             tips: List[str] = data.get('tips', [])
             if not tips:
-                logger.warning("Empty tips database. Falling back to default.")
+                logger.warning("Tips list is empty in the database. Using fallback.")
                 return self.DEFAULT_TIP
 
-            # Use UTC date to ensure global consistency
+            # Ensure UTC consistency
             now = datetime.datetime.now(datetime.timezone.utc)
             day_index = now.timetuple().tm_yday
 
-            return tips[day_index % len(tips)]
+            selected_tip = tips[day_index % len(tips)]
+            return selected_tip
         except Exception as e:
-            logger.error(f"Unexpected error retrieving tip: {e}")
+            logger.error(f"Error while retrieving daily tip: {e}. Falling back.")
             return self.DEFAULT_TIP
 
     def generate_status_section(self, tip: str, timestamp: str) -> str:
@@ -70,12 +71,12 @@ class ProfileStatusManager:
 
     def update_readme(self) -> bool:
         """
-        Updates the README.md file with the latest system status and tip.
-        Only writes to disk if content has changed to prevent redundant commits.
+        Updates the README.md file with the latest status table.
+        Performs in-place updates only if changes are detected to avoid redundant writes.
         """
         try:
             if not os.path.exists(self.readme_path):
-                logger.error(f"README.md not found at {self.readme_path}. Execution aborted.")
+                logger.error(f"README.md file not found at: {self.readme_path}. Aborting update.")
                 return False
 
             tip = self.get_daily_tip()
@@ -85,34 +86,33 @@ class ProfileStatusManager:
                 content = f.read()
 
             if self.START_MARKER not in content or self.END_MARKER not in content:
-                logger.error("Required markers (SYSTEM_STATUS) not found in README.md.")
+                logger.error("Required SYSTEM_STATUS markers are missing from README.md.")
                 return False
 
             status_section = self.generate_status_section(tip, current_time)
 
-            # Targeted replacement of the status block
+            # Find marker indices
             start_idx = content.find(self.START_MARKER)
             end_idx = content.find(self.END_MARKER) + len(self.END_MARKER)
 
+            # Replace block
             new_content = content[:start_idx] + status_section + content[end_idx:]
 
             if new_content == content:
-                logger.info("README content is already up-to-date. No write performed.")
+                logger.info("No modifications detected. README is already up to date.")
                 return False
 
             with open(self.readme_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
 
-            logger.info(f"Successfully synchronized README at {current_time}")
-            logger.info(f"Active Tip: {tip}")
+            logger.info(f"Successfully synchronized README.md status at {current_time}.")
             return True
 
         except Exception as e:
-            logger.error(f"Failed to update README: {e}")
+            logger.error(f"Unexpected error while updating README.md: {e}")
             return False
 
 if __name__ == "__main__":
-    # Define paths relative to the script's location for portability
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     README_FILE = os.path.join(BASE_DIR, 'README.md')
     TIPS_FILE = os.path.join(BASE_DIR, 'data', 'tips.json')
