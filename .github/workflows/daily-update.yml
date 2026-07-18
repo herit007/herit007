@@ -27,6 +27,12 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: 🧪 Install Testing Dependencies
+        run: pip install pytest
+
+      - name: 🧪 Run Verification Tests
+        run: pytest test_update.py
+
       - name: ⚙️ Execute Update Engine
         run: python3 update.py
 

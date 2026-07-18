@@ -117,5 +117,6 @@ if __name__ == "__main__":
     README_FILE = os.path.join(BASE_DIR, 'README.md')
     TIPS_FILE = os.path.join(BASE_DIR, 'data', 'tips.json')
 
+    # Instantiating the manager and executing the automated status sync
     manager = ProfileStatusManager(README_FILE, TIPS_FILE)
     manager.update_readme()
