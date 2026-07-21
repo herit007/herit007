@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=1">
-  <img src="./banner.svg?v=1" alt="Herit Tanna — AI/ML & Data Science" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=3">
+  <img src="./banner.svg?v=3" alt="Herit Tanna — AI/ML & Data Science" width="100%"/>
 </picture>
 
 </div>
@@ -12,12 +12,12 @@
 
 <table align="center" border="0">
 <tr>
-<td width="30%" align="center" valign="middle">
+<td width="32%" align="center" valign="top">
 
-<img src="./lanyard.svg?v=1" alt="Herit Tanna ID badge" width="260"/>
+<img src="./lanyard.svg?v=3" alt="Herit Tanna ID badge" width="300" height="494"/>
 
 </td>
-<td width="70%" valign="middle">
+<td width="68%" valign="top">
 
 ### 📊 Featured Projects
 
@@ -53,8 +53,8 @@
 
 ### 📈 GitHub Stats & Activity
 
-<img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e1a&title_color=38bdf8&icon_color=22d3ee&text_color=c9d6ea&ring_color=2563eb" alt="GitHub Stats" height="185"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0e1a&title_color=38bdf8&text_color=c9d6ea" alt="Top Languages" height="185"/>
+<img src="./toolkit.svg?v=1" alt="Core Toolkit" height="190"/>
+<img src="./milestones.svg?v=1" alt="Snapshot" height="190"/>
 
 <br/><br/>
 
@@ -63,10 +63,6 @@
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=herit007&bg_color=0a0e1a&color=38bdf8&line=2563eb&point=22d3ee&hide_border=true&area=true&area_color=1e3a8a&custom_title=Contribution%20Graph" alt="Contribution graph" width="95%"/>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=herit007&theme=algolia&no-frame=true&margin-w=10&row=1&column=7" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
