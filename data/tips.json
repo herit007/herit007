@@ -1,0 +1,22 @@
+[
+  "Use `enumerate()` in Python to loop over an iterable and have an automatic counter, avoiding manual index tracking.",
+  "Deep copy nested objects using Python's `copy.deepcopy()` to avoid side effects of mutating references.",
+  "In pandas, use `.loc` and `.iloc` for explicit label-based and integer-based indexing to prevent SettingWithCopy warnings.",
+  "Always set `random_state` (or `seed`) in machine learning pipelines to ensure experiment reproducibility.",
+  "When working with imbalanced classification datasets, consider using Stratified K-Fold cross-validation to maintain class distribution.",
+  "Gradient boosting models (like XGBoost, LightGBM) are highly sensitive to hyperparameter tuning; optimize learning rate first.",
+  "Feature scaling (e.g., StandardScaler) is crucial for distance-based algorithms like KNN, SVM, and gradient descent-based optimizers.",
+  "Use generator expressions instead of list comprehensions in Python when memory efficiency is critical for large datasets.",
+  "Prevent overfitting in neural networks using dropout layers, weight decay (L2 regularization), or early stopping.",
+  "When debugging a machine learning model, start by overfitting a tiny batch of data to verify the model can learn at all.",
+  "Use `is` for comparing identity (memory address) and `==` for comparing equality (value matching) in Python.",
+  "Use `.get()` with dictionaries in Python to provide a default value when a key may not exist, avoiding KeyError.",
+  "Use `with open(...)` context managers in Python to guarantee that files are closed properly, even if exceptions occur.",
+  "When evaluating regression models, Mean Absolute Error (MAE) is robust to outliers, while Mean Squared Error (MSE) penalizes them heavily.",
+  "Use Python list slicing `my_list[::-1]` as a fast and idiomatic way to reverse a list in-place/as a new copy.",
+  "Use `any()` and `all()` in Python to perform quick boolean evaluations across any iterable of conditions.",
+  "Pre-allocate memory for NumPy arrays or Pandas DataFrames instead of appending iteratively to greatly speed up code execution.",
+  "To handle categorical variables with high cardinality, consider target encoding or catboost encoding instead of one-hot encoding.",
+  "Regularly monitor your machine learning models for feature drift and concept drift in production to maintain accuracy.",
+  "In PyTorch, always call `model.eval()` before running inference to disable dropout and batch normalization behaviors."
+]

@@ -1,0 +1,45 @@
+name: Daily Profile Update
+
+on:
+  schedule:
+    - cron: '30 12 * * *' # Scheduled to run daily at 12:30 UTC
+  workflow_dispatch:      # Allows manual synchronization of the profile status
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Ensure full git history is retrieved for natural contribution contributions
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Profile Verification Tests
+        run: |
+          python3 -m unittest test_update.py
+
+      - name: Execute Status Update Engine
+        run: |
+          python3 update.py
+
+      - name: Commit and Push Changes
+        run: |
+          # Check for changes in README.md to avoid random or useless empty commits
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git config --local user.name "Herit Tanna"
+            git config --local user.email "blender740@gmail.com"
+            git add README.md
+            # Use specific automated sync message without [skip ci] to naturally contribute to contribution graph
+            git commit -m "chore: automated daily status and tip synchronization"
+            git push
+          else
+            echo "No meaningful changes to README.md. Skipping commit to keep history clean."
+          fi
