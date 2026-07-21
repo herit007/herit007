@@ -1,0 +1,102 @@
+<svg viewBox="0 0 340 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="strapGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1626"/>
+      <stop offset="100%" stop-color="#050a14"/>
+    </linearGradient>
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#bfe9ff" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="avatarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="cardClip">
+      <rect x="-130" y="0" width="260" height="330" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <!-- fixed loop anchor at the top -->
+  <g transform="translate(170,0)">
+    <circle cx="0" cy="6" r="7" fill="none" stroke="#5b6b8c" stroke-width="3"/>
+  </g>
+
+  <!-- swinging assembly, pivoted at (170,12) -->
+  <g transform="translate(170,12)">
+    <animateTransform attributeName="transform" type="rotate" additive="sum"
+      values="0;16;-12;9;-6;4;-2.5;1.5;-1;0"
+      keyTimes="0;0.12;0.28;0.44;0.58;0.7;0.8;0.88;0.94;1"
+      dur="3.6s" begin="0s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="rotate" additive="sum"
+      values="0;2.5;0;-2.5;0" dur="4.5s" begin="3.6s" repeatCount="indefinite"/>
+
+    <!-- strap -->
+    <path d="M -3,0 C -18,60 -14,140 -2,205 L 2,205 C 14,140 18,60 3,0 Z" fill="url(#strapGrad)"/>
+    <text x="0" y="110" font-family="'JetBrains Mono',monospace" font-size="10" fill="#e0f2fe" letter-spacing="2" text-anchor="middle" transform="rotate(90,0,110)">DATA · SCIENCE · AI/ML</text>
+    <text x="0" y="170" font-family="'JetBrains Mono',monospace" font-size="10" fill="#e0f2fe" letter-spacing="2" text-anchor="middle" transform="rotate(90,0,170)">HERIT007</text>
+
+    <!-- clasp -->
+    <rect x="-14" y="200" width="28" height="18" rx="5" fill="#93a5c4"/>
+    <circle cx="0" cy="226" r="10" fill="none" stroke="#93a5c4" stroke-width="4"/>
+
+    <!-- card -->
+    <g transform="translate(0,236)">
+      <rect x="-132" y="-2" width="264" height="334" rx="22" fill="url(#cardBorder)" opacity="0.9"/>
+      <rect x="-128" y="2" width="256" height="326" rx="19" fill="url(#cardGrad)"/>
+
+      <g clip-path="url(#cardClip)">
+        <!-- avatar ring, abstract AI/data mark (no face) -->
+        <circle cx="0" cy="72" r="52" fill="url(#avatarGlow)"/>
+        <circle cx="0" cy="72" r="44" fill="#08121f" stroke="#38bdf8" stroke-width="2"/>
+        <circle cx="0" cy="72" r="44" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="4 7" opacity="0.8">
+          <animateTransform attributeName="transform" type="rotate" from="0 0 72" to="360 0 72" dur="14s" repeatCount="indefinite"/>
+        </circle>
+        <!-- rising bar-chart glyph -->
+        <g fill="#38bdf8">
+          <rect x="-26" y="88" width="9" height="10" rx="2"><animate attributeName="height" values="10;30;10" dur="2.2s" repeatCount="indefinite"/><animate attributeName="y" values="88;68;88" dur="2.2s" repeatCount="indefinite"/></rect>
+          <rect x="-11" y="80" width="9" height="18" rx="2" fill="#60a5fa"><animate attributeName="height" values="18;38;18" dur="2.2s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="y" values="80;60;80" dur="2.2s" begin="0.2s" repeatCount="indefinite"/></rect>
+          <rect x="4" y="72" width="9" height="26" rx="2" fill="#22d3ee"><animate attributeName="height" values="26;44;26" dur="2.2s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="y" values="72;54;72" dur="2.2s" begin="0.4s" repeatCount="indefinite"/></rect>
+          <rect x="19" y="84" width="9" height="14" rx="2" fill="#818cf8"><animate attributeName="height" values="14;32;14" dur="2.2s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="y" values="84;66;84" dur="2.2s" begin="0.6s" repeatCount="indefinite"/></rect>
+        </g>
+
+        <!-- name / role -->
+        <text x="0" y="150" text-anchor="middle" font-family="'Poppins','Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#e2e8f0">HERIT TANNA</text>
+        <text x="0" y="172" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="12" fill="#7dd3fc">AI/ML · Data Science</text>
+        <text x="0" y="192" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="12" fill="#5b6b8c">@herit007</text>
+
+        <line x1="-104" y1="208" x2="104" y2="208" stroke="#1e3a5f"/>
+
+        <!-- barcode -->
+        <g transform="translate(-96,222)" fill="#3d6faf">
+          <rect x="0" y="0" width="2" height="26"/><rect x="5" y="0" width="1" height="26"/><rect x="9" y="0" width="3" height="26"/>
+          <rect x="15" y="0" width="1" height="26"/><rect x="19" y="0" width="2" height="26"/><rect x="24" y="0" width="1" height="26"/>
+          <rect x="28" y="0" width="3" height="26"/><rect x="34" y="0" width="1" height="26"/><rect x="38" y="0" width="2" height="26"/>
+          <rect x="43" y="0" width="1" height="26"/><rect x="47" y="0" width="3" height="26"/><rect x="53" y="0" width="1" height="26"/>
+          <rect x="57" y="0" width="2" height="26"/><rect x="62" y="0" width="1" height="26"/><rect x="66" y="0" width="3" height="26"/>
+          <rect x="72" y="0" width="1" height="26"/><rect x="76" y="0" width="2" height="26"/><rect x="81" y="0" width="1" height="26"/>
+          <rect x="85" y="0" width="3" height="26"/><rect x="91" y="0" width="1" height="26"/><rect x="95" y="0" width="2" height="26"/>
+        </g>
+        <text x="0" y="264" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#3d4f70" letter-spacing="3">ID · HT-2026-ML</text>
+
+        <!-- holographic shine sweep -->
+        <rect x="-160" y="-320" width="120" height="700" fill="url(#shineGrad)" transform="rotate(20)">
+          <animateTransform attributeName="transform" type="translate" values="-40 0; 320 0; -40 0" dur="5s" repeatCount="indefinite" additive="sum"/>
+        </rect>
+      </g>
+    </g>
+  </g>
+</svg>
