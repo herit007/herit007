@@ -10,14 +10,14 @@
 
 <br/>
 
-<table align="center" border="0">
+<table align="center" border="0" width="100%">
 <tr>
-<td width="32%" align="center" valign="top">
+<td width="30%" align="center" valign="top">
 
-<img src="./lanyard.svg?v=3" alt="Herit Tanna ID badge" width="300" height="494"/>
+<img src="./lanyard.svg?v=4" alt="Herit Tanna ID badge" width="100%" style="max-width:280px"/>
 
 </td>
-<td width="68%" valign="top">
+<td width="70%" valign="top">
 
 ### 📊 Featured Projects
 
@@ -66,9 +66,9 @@
 
 <br/><br/>
 
-### 🐍 Watch the snake eat my contributions
+### 👻 Pac-Man eats my contributions
 
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/github-snake-blue.svg" alt="Contribution snake"/>
+<img src="https://raw.githubusercontent.com/herit007/herit007/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph"/>
 
 <br/><br/>
 
