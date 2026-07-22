@@ -1,0 +1,60 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pcBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050a16"/>
+      <stop offset="55%" stop-color="#0a1730"/>
+      <stop offset="100%" stop-color="#071022"/>
+    </linearGradient>
+    <linearGradient id="pcBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="pcGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="pcGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1c2c4a" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <clipPath id="pcClip"><rect width="720" height="470" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#pcClip)">
+    <rect width="720" height="470" fill="url(#pcBg)"/>
+    <rect width="720" height="470" fill="url(#pcGrid)"/>
+    <circle cx="660" cy="30" r="160" fill="url(#pcGlow)"/>
+  </g>
+  <rect x="1" y="1" width="718" height="468" rx="19" fill="none" stroke="url(#pcBorder)" stroke-width="1.6"/>
+
+  <text x="28" y="42" font-family="'Segoe UI',sans-serif" font-size="19" font-weight="700" fill="#e2e8f0">📊 Featured Projects</text>
+
+  <!-- Data Analytics Portfolio -->
+  <text x="28" y="76" font-family="'JetBrains Mono',monospace" font-size="13.5" font-weight="700" fill="#38bdf8">Data Analytics Portfolio</text>
+
+  <g font-family="'Segoe UI',sans-serif" font-size="13" fill="#c9d6ea">
+    <text x="28" y="102">💱 <tspan fill="#e2e8f0" font-weight="600">INR Currency Exchange Dashboard</tspan> — Power BI</text>
+    <text x="28" y="126">🛒 <tspan fill="#e2e8f0" font-weight="600">Retail Store Sales Analysis</tspan> — Power BI, Excel</text>
+    <text x="28" y="150">💳 <tspan fill="#e2e8f0" font-weight="600">UPI Payment Apps Analysis</tspan> — Power BI, DAX</text>
+  </g>
+
+  <line x1="28" y1="168" x2="692" y2="168" stroke="#1e3a5f"/>
+
+  <!-- Supervised Machine Learning -->
+  <text x="28" y="196" font-family="'JetBrains Mono',monospace" font-size="13.5" font-weight="700" fill="#38bdf8">Supervised Machine Learning</text>
+
+  <g font-family="'Segoe UI',sans-serif" font-size="13" fill="#c9d6ea">
+    <text x="28" y="222">📩 <tspan fill="#e2e8f0" font-weight="600">Message Intelligence System</tspan> — spam detection · KNN, SVM, Naive Bayes</text>
+    <text x="28" y="246">⚠️ <tspan fill="#e2e8f0" font-weight="600">Risk Alert Classifier</tspan> — imbalanced banking-risk data · scikit-learn</text>
+    <text x="28" y="270">🧮 <tspan fill="#e2e8f0" font-weight="600">Robust Regression Engine</tspan> — regression modeling · scikit-learn</text>
+    <text x="28" y="294">🏠 <tspan fill="#e2e8f0" font-weight="600">House Price Prediction</tspan> — price prediction · scikit-learn</text>
+    <text x="28" y="318">📉 <tspan fill="#e2e8f0" font-weight="600">Customer Churn Prediction</tspan> — churn classification · scikit-learn</text>
+  </g>
+
+  <line x1="28" y1="336" x2="692" y2="336" stroke="#1e3a5f"/>
+
+  <text x="28" y="366" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#7dd3fc">git clone <tspan fill="#a5b4cf">github.com/herit007/Data-Analytics-Portfolio</tspan></text>
+  <text x="28" y="388" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#7dd3fc">git clone <tspan fill="#a5b4cf">github.com/herit007/Supervised-Machine-Learning</tspan></text>
+
+  <text x="28" y="428" font-family="'Segoe UI',sans-serif" font-style="italic" font-size="12.5" fill="#5b6b8c">"I don't just analyze data — I make it explain itself."</text>
+</svg>
