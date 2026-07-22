@@ -50,17 +50,19 @@
 
 ### 👻 Pac-Man eats my contributions
 
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/herit007/herit007/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/herit007/herit007/output/pacman-contribution-graph.svg">
+  <img src="https://raw.githubusercontent.com/herit007/herit007/output/pacman-contribution-graph-dark.svg" alt="Pac-Man contribution graph"/>
+</picture>
 
 <br/><br/>
 
 ### 📫 Let's Connect
 
-<a href="https://github.com/herit007"><img src="https://img.shields.io/badge/GitHub-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=herit007&color=2563eb&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+<a href="mailto:blender740@gmail.com"><img src="https://img.shields.io/badge/Gmail-2563eb?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+<a href="https://www.linkedin.com/in/tanna-herit-38b679387/"><img src="https://img.shields.io/badge/LinkedIn-0891b2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://portfolio-website-m33mwyxspkv9tsfattzjet.streamlit.app/"><img src="https://img.shields.io/badge/Portfolio-38bdf8?style=for-the-badge&logo=streamlit&logoColor=white" alt="Portfolio"/></a>
 
 <br/><br/>
 
