@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=4">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=4">
-  <img src="./banner.svg?v=4" alt="Herit Tanna — AI/ML & Data Science" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=5">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=5">
+  <img src="./banner.svg?v=5" alt="Herit Tanna — AI/ML & Data Science" width="100%"/>
 </picture>
 
 </div>
@@ -19,7 +19,7 @@
 </td>
 <td width="64%" valign="middle">
 
-<img src="./projects-card.svg?v=1" alt="Featured Projects" width="100%"/>
+<img src="./projects-card.svg?v=2" alt="Featured Projects" width="100%"/>
 
 **Data Analytics Portfolio →** [INR Dashboard](https://github.com/herit007/Data-Analytics-Portfolio/tree/main/INR-Currency-Dashboard) · [Retail Sales](https://github.com/herit007/Data-Analytics-Portfolio/tree/main/Retail%20Store%20Sales%20Analysis) · [UPI Analysis](https://github.com/herit007/Data-Analytics-Portfolio/tree/main/UPI%20Analysis) · [full repo](https://github.com/herit007/Data-Analytics-Portfolio)
 
@@ -47,8 +47,8 @@
 
 ### 📈 GitHub Stats & Activity
 
-<img src="./radar-skills.svg?v=1" alt="Skill Radar" height="220"/>
-<img src="./milestones.svg?v=1" alt="Snapshot" height="220"/>
+<img src="./radar-skills.svg?v=2" alt="Skill Radar" height="220"/>
+<img src="./milestones.svg?v=2" alt="Snapshot" height="220"/>
 
 <br/><br/>
 

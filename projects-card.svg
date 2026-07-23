@@ -23,6 +23,17 @@
   <g clip-path="url(#pcClip)">
     <rect width="720" height="470" fill="url(#pcBg)"/>
     <rect width="720" height="470" fill="url(#pcGrid)"/>
+    <g opacity="0.14">
+      <rect x="120" y="-160" width="1.2" height="90" fill="#38bdf8">
+        <animate attributeName="y" values="-160;470" dur="7.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="340" y="-200" width="1.2" height="70" fill="#22d3ee">
+        <animate attributeName="y" values="-200;470" dur="9s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="580" y="-180" width="1.2" height="80" fill="#818cf8">
+        <animate attributeName="y" values="-180;470" dur="8.2s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
     <circle cx="660" cy="30" r="160" fill="url(#pcGlow)"/>
   </g>
   <rect x="1" y="1" width="718" height="468" rx="19" fill="none" stroke="url(#pcBorder)" stroke-width="1.6"/>
