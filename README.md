@@ -33,6 +33,18 @@
 
 <div align="center">
 
+### 🛰️ Live Project Showcase
+
+<img src="./holo-showcase.svg?v=1" alt="Live project showcase — dashboards cycling automatically" width="85%"/>
+
+🔗 [INR Currency Exchange Dashboard](https://github.com/herit007/Data-Analytics-Portfolio/tree/main/INR-Currency-Dashboard) · [Retail Store Sales Analysis](https://github.com/herit007/Data-Analytics-Portfolio/tree/main/Retail%20Store%20Sales%20Analysis) · [UPI Payment Apps Analysis](https://github.com/herit007/Data-Analytics-Portfolio/tree/main/UPI%20Analysis)
+
+</div>
+
+<br/>
+
+<div align="center">
+
 ### 📈 GitHub Stats & Activity
 
 <img src="./toolkit.svg?v=1" alt="Core Toolkit" height="190"/>
