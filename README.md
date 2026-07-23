@@ -52,7 +52,7 @@
 
 <br/><br/>
 
-<img src="./streak-hologram.svg?v=1" alt="Live GitHub Streak" width="70%"/>
+<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true&background=0a0e1a&ring=2563eb&fire=22d3ee&currStreakLabel=38bdf8" alt="GitHub Streak"/>
 
 <br/><br/>
 
