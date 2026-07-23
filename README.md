@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=3">
-  <img src="./banner.svg?v=3" alt="Herit Tanna — AI/ML & Data Science" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=4">
+  <img src="./banner.svg?v=4" alt="Herit Tanna — AI/ML & Data Science" width="100%"/>
 </picture>
 
 </div>
@@ -14,7 +14,7 @@
 <tr>
 <td width="36%" align="center" valign="middle">
 
-<img src="./lanyard.svg?v=6" alt="Herit Tanna ID badge" width="280"/>
+<img src="./lanyard.svg?v=7" alt="Herit Tanna ID badge" width="280"/>
 
 </td>
 <td width="64%" valign="middle">
@@ -47,12 +47,12 @@
 
 ### 📈 GitHub Stats & Activity
 
-<img src="./toolkit.svg?v=1" alt="Core Toolkit" height="190"/>
-<img src="./milestones.svg?v=1" alt="Snapshot" height="190"/>
+<img src="./radar-skills.svg?v=1" alt="Skill Radar" height="220"/>
+<img src="./milestones.svg?v=1" alt="Snapshot" height="220"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true&background=0a0e1a&ring=2563eb&fire=22d3ee&currStreakLabel=38bdf8" alt="GitHub Streak"/>
+<img src="./streak-hologram.svg?v=1" alt="Live GitHub Streak" width="70%"/>
 
 <br/><br/>
 
