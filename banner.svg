@@ -316,27 +316,19 @@
 
     <!-- boot sequence overlay (plays once on load) -->
     <g>
-      <!-- solid black base, fades away at the very end to reveal the banner -->
-      <rect width="1280" height="620" fill="#000308">
-        <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.75;1" dur="1.8s" fill="freeze"/>
+      <rect width="1280" height="620" fill="#000308" opacity="1">
+        <animate attributeName="opacity" from="1" to="0" begin="0.9s" dur="0.7s" fill="freeze"/>
       </rect>
-
-      <!-- flicker scanlines, visible against the black base, fade out before the reveal -->
-      <g opacity="0">
-        <animate attributeName="opacity" values="0;0.6;0.1;0.5;0;0.4;0" keyTimes="0;0.15;0.3;0.45;0.6;0.75;1" dur="1.8s" fill="freeze"/>
-        <rect y="40" width="1280" height="1.5" fill="#38bdf8"/>
-        <rect y="180" width="1280" height="1.5" fill="#22d3ee"/>
-        <rect y="320" width="1280" height="1.5" fill="#38bdf8"/>
-        <rect y="480" width="1280" height="1.5" fill="#22d3ee"/>
-      </g>
 
       <text x="640" y="290" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="26" font-weight="700" fill="#38bdf8" letter-spacing="4" opacity="0">
         SYSTEM ONLINE
-        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.14;0.22;0.55;0.68;1" dur="1.8s" fill="freeze"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.25s" fill="freeze"/>
+        <animate attributeName="opacity" from="1" to="0" begin="0.65s" dur="0.25s" fill="freeze"/>
       </text>
       <text x="640" y="322" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#5b6b8c" opacity="0">
         AI / ML environment initialized
-        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.19;0.28;0.55;0.68;1" dur="1.8s" fill="freeze"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.25s" fill="freeze"/>
+        <animate attributeName="opacity" from="1" to="0" begin="0.65s" dur="0.25s" fill="freeze"/>
       </text>
     </g>
   </g>

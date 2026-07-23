@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=5">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=5">
-  <img src="./banner.svg?v=5" alt="Herit Tanna — AI/ML & Data Science" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=6">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=6">
+  <img src="./banner.svg?v=6" alt="Herit Tanna — AI/ML & Data Science" width="100%"/>
 </picture>
 
 </div>
