@@ -47,6 +47,10 @@
 
 ### 📈 GitHub Stats & Activity
 
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-tawny.vercel.app/?username=herit007&theme=tokyonight" alt="GitHub Trophies"/></a>
+
+<br/><br/>
+
 <img src="./radar-skills.svg?v=2" alt="Skill Radar" height="220"/>
 <img src="./milestones.svg?v=2" alt="Snapshot" height="220"/>
 
