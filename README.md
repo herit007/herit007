@@ -47,7 +47,7 @@
 
 ### 📈 GitHub Stats & Activity
 
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-tawny.vercel.app/?username=herit007&theme=tokyonight" alt="GitHub Trophies"/></a>
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=herit007&theme=tokyonight" alt="GitHub Trophies"/></a>
 
 <br/><br/>
 
