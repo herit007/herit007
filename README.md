@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=6">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=6">
-  <img src="./banner.svg?v=6" alt="Herit Tanna — AI/ML & Data Science" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=7">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=7">
+  <img src="./banner.svg?v=7" alt="Herit Tanna — AI/ML & Data Science" width="100%"/>
 </picture>
 
 </div>
@@ -47,16 +47,12 @@
 
 ### 📈 GitHub Stats & Activity
 
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=herit007&theme=tokyonight" alt="GitHub Trophies"/></a>
-
-<br/><br/>
-
 <img src="./radar-skills.svg?v=2" alt="Skill Radar" height="220"/>
 <img src="./milestones.svg?v=2" alt="Snapshot" height="220"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=herit007&theme=tokyonight&hide_border=true&background=0a0e1a&ring=2563eb&fire=22d3ee&currStreakLabel=38bdf8" alt="GitHub Streak"/>
+<img src="./streak-stats.svg?v=1" alt="GitHub Streak"/>
 
 <br/><br/>
 
