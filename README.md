@@ -56,10 +56,6 @@
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=herit007&bg_color=0a0e1a&color=38bdf8&line=2563eb&point=22d3ee&hide_border=true&area=true&area_color=1e3a8a&custom_title=Contribution%20Graph" alt="Contribution graph" width="95%"/>
-
-<br/><br/>
-
 ### 👻 Pac-Man eats my contributions
 
 <picture>
