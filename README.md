@@ -51,11 +51,6 @@
 <img src="./milestones.svg?v=2" alt="Snapshot" height="220"/>
 
 <br/><br/>
-
-<img src="./now-building.svg?v=1" alt="Now Building" width="60%"/>
-
-<br/><br/>
-
 <img src="./streak-stats.svg?v=1" alt="GitHub Streak"/>
 
 <br/><br/>
